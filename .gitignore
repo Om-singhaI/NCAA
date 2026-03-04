@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.venv310/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Model artifacts
+catboost_info/
+*.tmp
+
+# Large outputs (keep in logs/ locally, don't push)
+logs/
+
+# Archive (development history, kept locally)
+archive/
+
+# Generated submissions (regenerate with generate_kaggle_submission.py)
+submission_kaggle.csv
+bracket_2026_*.csv
+submission_2026.csv

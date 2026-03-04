@@ -1,0 +1,3 @@
+RecordID,Season,Team,Conference,Overall Seed,Bid Type,NET Rank,PrevNET,AvgOppNETRank,AvgOppNET,WL,Conf.Record,Non-ConferenceRecord,RoadWL,NETSOS,NETNonConfSOS,Quadrant1,Quadrant2,Quadrant3,Quadrant4
+2025-26-ExampleTeam1,2025-26,Example Team1,SEC,,AL,5,8,20,80,28-3,18-2,10-1,12-2,10,120,12-3,6-0,5-0,5-0
+2025-26-ExampleTeam2,2025-26,Example Team2,Big Ten,,AQ,15,20,30,90,25-6,16-4,9-2,10-3,22,150,8-4,4-2,6-0,7-0
