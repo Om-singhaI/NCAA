@@ -21,6 +21,16 @@ catboost_info/
 # Large outputs (keep in logs/ locally, don't push)
 logs/
 
+# Video files
+VIDEO_*.md
+VIDEO_*.srt
+VIDEO_SHOT_GUIDE.md
+
+# Tableau files
+TABLEAU_GUIDE.md
+tableau_exports/
+submission/tableau_exports/
+
 # Generated submissions (regenerate with generate_kaggle_submission.py)
 submission_kaggle.csv
 bracket_2026_*.csv

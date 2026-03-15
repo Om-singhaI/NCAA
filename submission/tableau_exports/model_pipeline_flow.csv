@@ -1,6 +1,0 @@
-Step,Stage,Description,Component,SE,Exact,RMSE,Exact_Pct
-1,Pairwise LR + XGB Blend,64% Adj-Pair LR(C=5) + 28% Top-25 LR(C=0.5) + 8% XGB,v12 Base Model,561.0,57.0,2.482908609843537,62.637362637362635
-2,Hungarian Assignment,Optimal 1-to-1 seed assignment (power=0.15),Optimization,561.0,57.0,2.482908609843537,62.637362637362635
-3,Dual-Hungarian Ensemble,75% v12 + 25% Min8 Ridge committee,Ensemble,,,,
-4,7 Zone Corrections,Seed-range-specific bias corrections,Post-Processing,,,,
-5,AQ↔AL Swap,Swap mis-seeded AQ/AL teams (seeds 30-45),Post-Processing,14.0,83.0,0.3922322702763681,91.20879120879121
