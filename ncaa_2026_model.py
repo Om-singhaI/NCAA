@@ -276,7 +276,8 @@ def parse_wl(s):
 # =================================================================
 def build_features(df, context_df, labeled_df, tourn_rids):
     """
-    Build 68 features for given teams.
+    Build features for given teams.
+    v50: 68 features per team.
     
     Args:
         df: DataFrame of teams to featurize
@@ -1378,16 +1379,17 @@ def run_prediction(new_data_path):
               f'{str(row["Conference"]):<12} {str(row["Bid"]):<4} {row["NET_Rank"]:4.0f}')
 
     # Save predictions
+    os.makedirs(os.path.join(DATA_DIR, 'output', '2026'), exist_ok=True)
     out_df = pd.DataFrame({
         'RecordID': new_tourn['RecordID'].values,
         'Overall Seed': assigned,
     })
-    out_path = os.path.join(DATA_DIR, 'bracket_2026_prediction.csv')
+    out_path = os.path.join(DATA_DIR, 'output', '2026', 'bracket_2026_prediction.csv')
     out_df.to_csv(out_path, index=False)
     print(f'\n  Saved: {out_path}')
 
     # Also save detailed results
-    detail_path = os.path.join(DATA_DIR, 'bracket_2026_detailed.csv')
+    detail_path = os.path.join(DATA_DIR, 'output', '2026', 'bracket_2026_detailed.csv')
     results.to_csv(detail_path, index=False)
     print(f'  Saved: {detail_path}')
 

@@ -1,0 +1,172 @@
+============================================================
+         NCAA 2026 TOURNAMENT SEED PREDICTIONS
+         Model: v50 (Pairwise LR/XGB + Dual-Hungarian)
+         Data:  ESPN Bracketology + NCAA NET Rankings
+         Date:  March 9, 2026
+============================================================
+
+OVERALL SEED ASSIGNMENTS (1-68)
+────────────────────────────────────────────────────────────────────────────
+
+ Seed  Line  Team                        Conference       Bid   NET Rank
+ ────  ────  ──────────────────────────   ────────────     ───   ────────
+    1    1   Duke                        ACC              AL         1
+    2    1   Michigan                    Big Ten          AL         2
+    3    1   Arizona                     Big 12           AL         3
+    4    1   Florida                     SEC              AL         4
+    5    2   Houston                     Big 12           AL         7
+    6    2   Iowa State                  Big 12           AL         8
+    7    2   Illinois                    Big Ten          AL         6
+    8    2   Michigan State              Big Ten          AL        11
+    9    3   UConn                       Big East         AL         9
+   10    3   Nebraska                    Big Ten          AL        12
+   11    3   Purdue                      Big Ten          AL        10
+   12    3   Alabama                     SEC              AL        17
+   13    4   Arkansas                    SEC              AL        18
+   14    4   Kansas                      Big 12           AL        19
+   15    4   Vanderbilt                  SEC              AL        16
+   16    4   Gonzaga                     WCC              AL         5
+   17    5   Texas Tech                  Big 12           AL        15
+   18    5   Virginia                    ACC              AL        13
+   19    5   Louisville                  ACC              AL        14
+   20    5   North Carolina              ACC              AL        23
+   21    6   Tennessee                   SEC              AL        21
+   22    6   BYU                         Big 12           AL        24
+   23    6   St. John's                  Big East         AL        22
+   24    6   Wisconsin                   Big Ten          AL        26
+   25    7   Saint Mary's                WCC              AL        20
+   26    7   Ohio State                  Big Ten          AL        30
+   27    7   Kentucky                    SEC              AL        28
+   28    7   UCLA                        Big Ten          AL        34
+   29    8   Iowa                        Big Ten          AL        25
+   30    8   Georgia                     SEC              AL        31
+   31    8   Villanova                   Big East         AL        33
+   32    8   Miami (FL)                  ACC              AL        32
+   33    9   TCU                         Big 12           AL        40
+   34    9   Clemson                     ACC              AL        36
+   35    9   Utah State                  Mountain West    AQ        29
+   36    9   Auburn                      SEC              AL        38
+   37   10   Texas A&M                   SEC              AL        43
+   38   10   NC State                    ACC              AL        35
+   39   10   Texas                       SEC              AL        41
+   40   10   Santa Clara                 WCC              AL        42
+   41   11   UCF                         Big 12           AL        51
+   42   11   Missouri                    SEC              AL        60
+   43   11   Saint Louis                 Atlantic 10      AQ        27
+   44   11   VCU                         Atlantic 10      AL        44
+   45   12   SMU                         ACC              AL        39
+   46   12   South Florida               American         AQ        49
+   47   12   Northern Iowa               MVC              AQ        72
+   48   12   Miami (OH)                  MAC              AQ        55
+   49   13   Yale                        Ivy League       AQ        66
+   50   13   Liberty                     CUSA             AQ       100
+   51   13   Utah Valley                 WAC              AQ        85
+   52   13   High Point                  Big South        AQ        76
+   53   14   Stephen F. Austin           Southland        AQ        86
+   54   14   Hofstra                     CAA              AQ        88
+   55   14   North Dakota State          Summit League    AQ       115
+   56   14   UC Irvine                   Big West         AQ       118
+   57   15   Troy                        Sun Belt         AQ       132
+   58   15   ETSU                        SoCon            AQ       126
+   59   15   Portland State              Big Sky          AQ       136
+   60   15   Tennessee State             OVC              AQ       172
+   61   16   Wright State                Horizon          AQ       133
+   62   16   Merrimack                   MAAC             AQ       173
+   63   16   Queens (NC)                 ASUN             AQ       187
+   64   16   UMBC                        America East     AQ       205
+   65   16   LIU                         NEC              AQ       200
+   66   16   Howard                      MEAC             AQ       202
+   67   16   Bethune-Cookman             SWAC             AQ       255
+   68   16   Lehigh                      Patriot          AQ       282
+
+
+BRACKET VIEW (by Region)
+────────────────────────────────────────────────────────────────────────────
+
+EAST REGION                          SOUTH REGION
+─────────────                        ─────────────
+ 1  Duke                 AL          1  Florida              AL
+ 2  Michigan State       AL          2  Houston              AL
+ 3  UConn                AL          3  Nebraska             AL
+ 4  Arkansas             AL          4  Virginia             AL
+ 5  Texas Tech           AL          5  St. John's           AL
+ 6  Tennessee            AL          6  Louisville           AL
+ 7  Saint Mary's         AL          7  Kentucky             AL
+ 8  Iowa                 AL          8  Georgia              AL
+ 9  TCU                  AL          9  Utah State           AQ
+10  NC State             AL         10  Texas A&M            AL
+11  UCF                  AL         11  VCU                  AL
+12  South Florida        AQ         12  SMU                  AL
+13  Yale                 AQ         13  Liberty              AQ
+14  Stephen F. Austin    AQ         14  UC Irvine            AQ
+15  Troy                 AQ         15  Portland State       AQ
+16  UMBC                 AQ         16  Lehigh               AQ
+
+MIDWEST REGION                       WEST REGION
+──────────────                       ────────────
+ 1  Michigan             AL          1  Arizona              AL
+ 2  Illinois             AL          2  Iowa State           AL
+ 3  Purdue               AL          3  Alabama              AL
+ 4  Kansas               AL          4  Gonzaga              AL
+ 5  North Carolina       AL          5  Louisville           AL
+ 6  BYU                  AL          6  Wisconsin            AL
+ 7  Ohio State           AL          7  UCLA                 AL
+ 8  Villanova            AL          8  Miami (FL)           AL
+ 9  Clemson              AL          9  Auburn               AL
+10  Texas                AL         10  Santa Clara          AL
+11  Saint Louis          AQ         11  Missouri             AL
+12  Northern Iowa        AQ         12  Miami (OH)           AQ
+13  High Point           AQ         13  Utah Valley          AQ
+14  Hofstra              AQ         14  North Dakota State   AQ
+15  ETSU                 AQ         15  Tennessee State      AQ
+16  LIU                  AQ         16  Queens (NC)          AQ
+
+
+CONFERENCE BREAKDOWN
+────────────────────────────────────────────────────────────────────────────
+
+Conference         Teams   AL   AQ   Best Seed
+──────────────     ─────   ──   ──   ─────────
+SEC                  11    11    0   1 (Florida)
+Big Ten               9     9    0   2 (Michigan)
+ACC                   8     8    0   1 (Duke)
+Big 12                8     8    0   3 (Arizona)
+Big East              3     3    0   9 (UConn)
+WCC                   3     3    0   16 (Gonzaga)
+Atlantic 10           2     1    1   43 (Saint Louis)
+Mountain West         1     0    1   35 (Utah State)
+American              1     0    1   46 (South Florida)
+MAC                   1     0    1   48 (Miami OH)
+MVC                   1     0    1   47 (Northern Iowa)
+Ivy League            1     0    1   49 (Yale)
+Big South             1     0    1   52 (High Point)
+CUSA                  1     0    1   50 (Liberty)
+WAC                   1     0    1   51 (Utah Valley)
+Southland             1     0    1   53 (SFA)
+CAA                   1     0    1   54 (Hofstra)
+Summit League         1     0    1   55 (North Dakota State)
+Big West              1     0    1   56 (UC Irvine)
+Sun Belt              1     0    1   57 (Troy)
+SoCon                 1     0    1   58 (ETSU)
+Big Sky               1     0    1   59 (Portland State)
+OVC                   1     0    1   60 (Tennessee State)
+Horizon               1     0    1   61 (Wright State)
+MAAC                  1     0    1   62 (Merrimack)
+ASUN                  1     0    1   63 (Queens)
+NEC                   1     0    1   65 (LIU)
+America East          1     0    1   64 (UMBC)
+MEAC                  1     0    1   66 (Howard)
+SWAC                  1     0    1   67 (Bethune-Cookman)
+Patriot               1     0    1   68 (Lehigh)
+
+TOTALS:  68 teams  (43 At-Large + 25 Auto-Qualifier)
+
+
+MODEL DETAILS
+────────────────────────────────────────────────────────────────────────────
+
+Architecture:  v50 — Pairwise LR/XGB + Dual-Hungarian + 7-Zone + AQ/AL Swap
+Training:      340 labeled teams from 5 seasons (2020-21 through 2024-25)
+Features:      68 engineered features from 20 raw columns
+Validation:    LOSO (Leave-One-Season-Out), 83/91 exact matches, SE=14
+Data Source:   NCAA NET Rankings + ESPN Bracketology (Joe Lunardi, 3/8/2026)

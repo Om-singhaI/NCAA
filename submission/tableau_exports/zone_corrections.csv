@@ -1,0 +1,9 @@
+Zone_Name,Zone_Lo,Zone_Hi,Description,Teams_In_Zone,V12_Squared_Error,Final_Squared_Error,SE_Improvement,V12_Exact_Matches,Final_Exact_Matches,Exact_Match_Gain,Teams_Improved,Teams_Hurt,Teams_Unchanged,V12_RMSE,Final_RMSE
+Zone 1: Mid (17-34),17,34,SOS divergence correction,18,354,10,344,7,14,7,9,0,9,4.43471156521669,0.7453559924999299
+Zone 2: Upper-Mid (34-44),34,44,Reverse AL/SOS correction,14,153,0,153,9,14,5,5,0,9,3.3058389901160385,0.0
+Zone 3b: Mid-Bot2 (42-50),42,50,Committee path correction,15,71,1,70,10,14,4,5,1,9,2.1756225162774294,0.2581988897471611
+Zone 3: Mid-Bot (48-52),48,52,NET-conf correction,10,32,2,30,5,8,3,5,2,3,1.7888543819998317,0.4472135954999579
+Zone 4: Bottom (52-60),52,60,SOS-NET/conf correction,15,24,0,24,8,15,7,7,0,8,1.2649110640673518,0.0
+Zone 5: Tail (60-63),60,63,Opp rank correction,6,4,0,4,2,6,4,4,0,2,0.816496580927726,0.0
+Zone 7: Extreme Tail (63-68),63,68,Bottom correction,10,3,0,3,7,10,3,3,0,7,0.5477225575051661,0.0
+AQ↔AL Swap (30-45),30,45,Bid type swap rule,17,154,0,154,11,17,6,6,0,11,3.0097879542273014,0.0

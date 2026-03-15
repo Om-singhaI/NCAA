@@ -21,9 +21,6 @@ catboost_info/
 # Large outputs (keep in logs/ locally, don't push)
 logs/
 
-# Archive (development history, kept locally)
-archive/
-
 # Generated submissions (regenerate with generate_kaggle_submission.py)
 submission_kaggle.csv
 bracket_2026_*.csv

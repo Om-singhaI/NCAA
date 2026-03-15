@@ -1,0 +1,77 @@
+[I 2026-02-04 21:39:55,994] A new study created in memory with name: no-name-30d09dce-0f2c-463e-87d1-c16a75beb319
+🚀 ULTRA-AGGRESSIVE: Stacking + Optuna
+
+Loading data...
+Training: 1353 samples, 36 features
+Selected teams: 249
+
+=== BASE MODELS (5 diverse models) ===
+
+Model 1: XGBoost (aggressive)
+  OOF RMSE: 4.8392
+
+Model 2: LightGBM (aggressive)
+  OOF RMSE: 2.7271
+
+Model 3: CatBoost
+  OOF RMSE: 2.7925
+
+Model 4: XGBoost (conservative)
+  OOF RMSE: 3.2536
+
+Model 5: LightGBM (conservative)
+  OOF RMSE: 2.5940
+
+Mean base model RMSE: 3.2413
+
+=== TUNING META-LEARNER WITH OPTUNA ===
+  0%|          | 0/15 [00:00<?, ?it/s]                                        0%|          | 0/15 [00:01<?, ?it/s]Best trial: 0. Best value: 2.84567:   0%|          | 0/15 [00:01<?, ?it/s]Best trial: 0. Best value: 2.84567:   7%|▋         | 1/15 [00:01<00:14,  1.06s/it]                                                                                  Best trial: 0. Best value: 2.84567:   7%|▋         | 1/15 [00:01<00:14,  1.06s/it]Best trial: 1. Best value: 2.60867:   7%|▋         | 1/15 [00:01<00:14,  1.06s/it]Best trial: 1. Best value: 2.60867:  13%|█▎        | 2/15 [00:01<00:10,  1.27it/s]                                                                                  Best trial: 1. Best value: 2.60867:  13%|█▎        | 2/15 [00:02<00:10,  1.27it/s]Best trial: 2. Best value: 2.57958:  13%|█▎        | 2/15 [00:02<00:10,  1.27it/s]Best trial: 2. Best value: 2.57958:  20%|██        | 3/15 [00:02<00:12,  1.01s/it]                                                                                  Best trial: 2. Best value: 2.57958:  20%|██        | 3/15 [00:03<00:12,  1.01s/it]Best trial: 3. Best value: 2.55387:  20%|██        | 3/15 [00:03<00:12,  1.01s/it]Best trial: 3. Best value: 2.55387:  27%|██▋       | 4/15 [00:03<00:09,  1.15it/s]                                                                                  Best trial: 3. Best value: 2.55387:  27%|██▋       | 4/15 [00:05<00:09,  1.15it/s]Best trial: 3. Best value: 2.55387:  27%|██▋       | 4/15 [00:05<00:09,  1.15it/s]Best trial: 3. Best value: 2.55387:  33%|███▎      | 5/15 [00:05<00:11,  1.16s/it]                                                                                  Best trial: 3. Best value: 2.55387:  33%|███▎      | 5/15 [00:06<00:11,  1.16s/it]Best trial: 3. Best value: 2.55387:  33%|███▎      | 5/15 [00:06<00:11,  1.16s/it]Best trial: 3. Best value: 2.55387:  40%|████      | 6/15 [00:06<00:09,  1.04s/it]                                                                                  Best trial: 3. Best value: 2.55387:  40%|████      | 6/15 [00:06<00:09,  1.04s/it]Best trial: 3. Best value: 2.55387:  40%|████      | 6/15 [00:06<00:09,  1.04s/it]Best trial: 3. Best value: 2.55387:  47%|████▋     | 7/15 [00:06<00:07,  1.03it/s]                                                                                  Best trial: 3. Best value: 2.55387:  47%|████▋     | 7/15 [00:07<00:07,  1.03it/s]Best trial: 3. Best value: 2.55387:  47%|████▋     | 7/15 [00:07<00:07,  1.03it/s]Best trial: 3. Best value: 2.55387:  53%|█████▎    | 8/15 [00:07<00:06,  1.06it/s]                                                                                  Best trial: 3. Best value: 2.55387:  53%|█████▎    | 8/15 [00:08<00:06,  1.06it/s]Best trial: 3. Best value: 2.55387:  53%|█████▎    | 8/15 [00:08<00:06,  1.06it/s]Best trial: 3. Best value: 2.55387:  60%|██████    | 9/15 [00:08<00:05,  1.13it/s]                                                                                  Best trial: 3. Best value: 2.55387:  60%|██████    | 9/15 [00:10<00:05,  1.13it/s]Best trial: 3. Best value: 2.55387:  60%|██████    | 9/15 [00:10<00:05,  1.13it/s]Best trial: 3. Best value: 2.55387:  67%|██████▋   | 10/15 [00:10<00:05,  1.11s/it]                                                                                   Best trial: 3. Best value: 2.55387:  67%|██████▋   | 10/15 [00:11<00:05,  1.11s/it]Best trial: 3. Best value: 2.55387:  67%|██████▋   | 10/15 [00:11<00:05,  1.11s/it]Best trial: 3. Best value: 2.55387:  73%|███████▎  | 11/15 [00:11<00:04,  1.06s/it]                                                                                   Best trial: 3. Best value: 2.55387:  73%|███████▎  | 11/15 [00:12<00:04,  1.06s/it]Best trial: 11. Best value: 2.5502:  73%|███████▎  | 11/15 [00:12<00:04,  1.06s/it]Best trial: 11. Best value: 2.5502:  80%|████████  | 12/15 [00:12<00:03,  1.09s/it]                                                                                   Best trial: 11. Best value: 2.5502:  80%|████████  | 12/15 [00:13<00:03,  1.09s/it]Best trial: 12. Best value: 2.5473:  80%|████████  | 12/15 [00:13<00:03,  1.09s/it]Best trial: 12. Best value: 2.5473:  87%|████████▋ | 13/15 [00:13<00:02,  1.08s/it]                                                                                   Best trial: 12. Best value: 2.5473:  87%|████████▋ | 13/15 [00:14<00:02,  1.08s/it]Best trial: 13. Best value: 2.54617:  87%|████████▋ | 13/15 [00:14<00:02,  1.08s/it]Best trial: 13. Best value: 2.54617:  93%|█████████▎| 14/15 [00:14<00:01,  1.08s/it]                                                                                    Best trial: 13. Best value: 2.54617:  93%|█████████▎| 14/15 [00:15<00:01,  1.08s/it]Best trial: 13. Best value: 2.54617:  93%|█████████▎| 14/15 [00:15<00:01,  1.08s/it]Best trial: 13. Best value: 2.54617: 100%|██████████| 15/15 [00:15<00:00,  1.06s/it]Best trial: 13. Best value: 2.54617: 100%|██████████| 15/15 [00:15<00:00,  1.03s/it]
+[I 2026-02-04 21:39:57,073] Trial 0 finished with value: 2.8456668824404088 and parameters: {'n_estimators': 669, 'learning_rate': 0.09642742505058108, 'max_depth': 5, 'num_leaves': 112, 'subsample': 0.7802580421473587, 'colsample_bytree': 0.9412250193008431, 'reg_alpha': 0.11335238399324499, 'reg_lambda': 1.1413958724057738}. Best is trial 0 with value: 2.8456668824404088.
+[I 2026-02-04 21:39:57,671] Trial 1 finished with value: 2.6086707046723103 and parameters: {'n_estimators': 311, 'learning_rate': 0.06006052883416923, 'max_depth': 6, 'num_leaves': 69, 'subsample': 0.8290445688681968, 'colsample_bytree': 0.6999857698015757, 'reg_alpha': 0.6772758856299977, 'reg_lambda': 0.39658605157818516}. Best is trial 1 with value: 2.6086707046723103.
+[I 2026-02-04 21:39:58,936] Trial 2 finished with value: 2.579578195879875 and parameters: {'n_estimators': 686, 'learning_rate': 0.01686628031588793, 'max_depth': 6, 'num_leaves': 66, 'subsample': 0.9464939040805127, 'colsample_bytree': 0.7474601962764309, 'reg_alpha': 0.4045095936305605, 'reg_lambda': 0.8885554136883123}. Best is trial 2 with value: 2.579578195879875.
+[I 2026-02-04 21:39:59,602] Trial 3 finished with value: 2.5538739540674853 and parameters: {'n_estimators': 347, 'learning_rate': 0.02865348393744071, 'max_depth': 7, 'num_leaves': 127, 'subsample': 0.9104622611648975, 'colsample_bytree': 0.5148263444539583, 'reg_alpha': 0.48653660310740976, 'reg_lambda': 0.734038119976278}. Best is trial 3 with value: 2.5538739540674853.
+[I 2026-02-04 21:40:01,274] Trial 4 finished with value: 2.8147251890437555 and parameters: {'n_estimators': 742, 'learning_rate': 0.07075118031404765, 'max_depth': 8, 'num_leaves': 43, 'subsample': 0.8608223782813682, 'colsample_bytree': 0.9494624086677295, 'reg_alpha': 0.49959225308993727, 'reg_lambda': 1.304541587455852}. Best is trial 3 with value: 2.5538739540674853.
+[I 2026-02-04 21:40:02,078] Trial 5 finished with value: 2.668268201945035 and parameters: {'n_estimators': 476, 'learning_rate': 0.04959724424168313, 'max_depth': 5, 'num_leaves': 41, 'subsample': 0.927446645047439, 'colsample_bytree': 0.92237281726228, 'reg_alpha': 0.07422331460390863, 'reg_lambda': 1.0911711708274232}. Best is trial 3 with value: 2.5538739540674853.
+[I 2026-02-04 21:40:02,909] Trial 6 finished with value: 2.5883593409252748 and parameters: {'n_estimators': 587, 'learning_rate': 0.023411666481788607, 'max_depth': 4, 'num_leaves': 66, 'subsample': 0.8164457015226705, 'colsample_bytree': 0.8066355338125004, 'reg_alpha': 0.9480229034839374, 'reg_lambda': 0.6620524329187434}. Best is trial 3 with value: 2.5538739540674853.
+[I 2026-02-04 21:40:03,782] Trial 7 finished with value: 2.6128187594105534 and parameters: {'n_estimators': 518, 'learning_rate': 0.033593415675651266, 'max_depth': 5, 'num_leaves': 44, 'subsample': 0.9160273620281933, 'colsample_bytree': 0.7181252315845521, 'reg_alpha': 0.5920643082439329, 'reg_lambda': 1.8006376560679762}. Best is trial 3 with value: 2.5538739540674853.
+[I 2026-02-04 21:40:04,536] Trial 8 finished with value: 2.7045871912157384 and parameters: {'n_estimators': 356, 'learning_rate': 0.0847814158074058, 'max_depth': 7, 'num_leaves': 136, 'subsample': 0.7314364778869128, 'colsample_bytree': 0.9380844114222273, 'reg_alpha': 0.5462026449507416, 'reg_lambda': 1.0363319871689955}. Best is trial 3 with value: 2.5538739540674853.
+[I 2026-02-04 21:40:06,159] Trial 9 finished with value: 2.6769570997255614 and parameters: {'n_estimators': 780, 'learning_rate': 0.03422596835026637, 'max_depth': 7, 'num_leaves': 102, 'subsample': 0.7263073675448473, 'colsample_bytree': 0.969043525539929, 'reg_alpha': 0.64971715206796, 'reg_lambda': 1.7377882238935471}. Best is trial 3 with value: 2.5538739540674853.
+[I 2026-02-04 21:40:07,102] Trial 10 finished with value: 2.6239089963423194 and parameters: {'n_estimators': 415, 'learning_rate': 0.04507764802197945, 'max_depth': 8, 'num_leaves': 150, 'subsample': 0.9839747668220326, 'colsample_bytree': 0.5066135239036802, 'reg_alpha': 0.26813040416512146, 'reg_lambda': 0.031458274484962745}. Best is trial 3 with value: 2.5538739540674853.
+[I 2026-02-04 21:40:08,266] Trial 11 finished with value: 2.550199370822511 and parameters: {'n_estimators': 620, 'learning_rate': 0.013997031998084268, 'max_depth': 7, 'num_leaves': 80, 'subsample': 0.9935999103127501, 'colsample_bytree': 0.500379079039127, 'reg_alpha': 0.3492386912067905, 'reg_lambda': 0.6385601527109208}. Best is trial 11 with value: 2.550199370822511.
+[I 2026-02-04 21:40:09,332] Trial 12 finished with value: 2.547297676520562 and parameters: {'n_estimators': 592, 'learning_rate': 0.011699767121782324, 'max_depth': 7, 'num_leaves': 121, 'subsample': 0.9990076286634919, 'colsample_bytree': 0.506465026592782, 'reg_alpha': 0.3047255202881756, 'reg_lambda': 0.5816598204032919}. Best is trial 12 with value: 2.547297676520562.
+[I 2026-02-04 21:40:10,401] Trial 13 finished with value: 2.54617478009331 and parameters: {'n_estimators': 597, 'learning_rate': 0.01122160917357034, 'max_depth': 7, 'num_leaves': 91, 'subsample': 0.9787956003516778, 'colsample_bytree': 0.5815259522886818, 'reg_alpha': 0.2578586134043636, 'reg_lambda': 0.36819442244973866}. Best is trial 13 with value: 2.54617478009331.
+[I 2026-02-04 21:40:11,401] Trial 14 finished with value: 2.547902915897383 and parameters: {'n_estimators': 537, 'learning_rate': 0.011863327010095785, 'max_depth': 8, 'num_leaves': 98, 'subsample': 0.9652920208081771, 'colsample_bytree': 0.611278780065548, 'reg_alpha': 0.19552963093486134, 'reg_lambda': 0.24094192356362562}. Best is trial 13 with value: 2.54617478009331.
+Best meta RMSE: 2.5462
+Best params: {'n_estimators': 597, 'learning_rate': 0.01122160917357034, 'max_depth': 7, 'num_leaves': 91, 'subsample': 0.9787956003516778, 'colsample_bytree': 0.5815259522886818, 'reg_alpha': 0.2578586134043636, 'reg_lambda': 0.36819442244973866}
+
+=== TRAINING FINAL META-LEARNER ===
+
+✅ FINAL SUBMISSION
+Mean seed: 7.93, Std: 17.85
+Min/Max: 0.00 / 65.53
+Teams selected: 430 / 451
+
+Wrote my_submission.csv
+
+Top predictions:
+                      RecordID  Overall Seed
+0               2020-21-Baylor      5.065247
+1             2020-21-Arkansas     13.920378
+2               2020-21-Purdue     20.047459
+3          2020-21-OklahomaSt.     24.201509
+4   2020-21-SouthernCalifornia     24.157267
+5            2020-21-TexasTech     20.180353
+6            2020-21-Wisconsin     25.759856
+7             2020-21-Syracuse     38.888246
+8                 2020-21-UCLA     43.651086
+9             2020-21-Winthrop     51.979569
+10      2020-21-UCSantaBarbara     46.625384
+11                2020-21-Ohio     54.414435
+12             2020-21-Liberty     59.458447
+13       2020-21-UNCGreensboro     53.959813
+14    2020-21-AbileneChristian     57.336599
+15         2020-21-GrandCanyon     59.251578
+16              2020-21-Drexel     60.705528
+17      2020-21-MountSt.Mary's     64.601229
+18                2020-21-Duke      0.006952
+19              2020-21-Xavier      0.006952

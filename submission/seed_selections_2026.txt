@@ -1,0 +1,74 @@
+2025-26 NCAA Tournament Seed Selections
+========================================
+Updated: March 14, 2026 (using NCAA Statistics through March 13)
+
+ Seed  Team
+ ────  ──────────────────────────
+    1  Duke
+    2  Michigan
+    3  Arizona
+    4  Houston
+    5  Florida
+    6  Iowa St.
+    7  Purdue
+    8  UConn
+    9  Nebraska
+   10  Illinois
+   11  Michigan St.
+   12  Vanderbilt
+   13  Virginia
+   14  Arkansas
+   15  Alabama
+   16  Kansas
+   17  Texas Tech
+   18  Gonzaga(AQ)
+   19  St. John's (NY)
+   20  BYU
+   21  Louisville
+   22  Tennessee
+   23  Wisconsin
+   24  North Carolina
+   25  UCLA
+   26  Kentucky
+   27  Ohio St.
+   28  Saint Mary's (CA)
+   29  Miami (FL)
+   30  Clemson
+   31  Iowa
+   32  Villanova
+   33  Georgia
+   34  TCU
+   35  Utah St.
+   36  UCF
+   37  Santa Clara
+   38  NC State
+   39  Auburn
+   40  Texas A&M
+   41  Saint Louis
+   42  SMU
+   43  VCU
+   44  Texas
+   45  Missouri
+   46  South Fla.
+   47  UNI(AQ)
+   48  Yale
+   49  Miami (OH)
+   50  Utah Valley
+   51  SFA
+   52  High Point(AQ)
+   53  Liberty
+   54  Hofstra(AQ)
+   55  UC Irvine
+   56  North Dakota St.(AQ)
+   57  Troy(AQ)
+   58  Wright St.(AQ)
+   59  Tennessee St.(AQ)
+   60  Portland St.
+   61  ETSU
+   62  Queens (NC)(AQ)
+   63  Merrimack
+   64  UMBC(AQ)
+   65  LIU(AQ)
+   66  Howard
+   67  Bethune-Cookman
+   68  Lehigh(AQ)

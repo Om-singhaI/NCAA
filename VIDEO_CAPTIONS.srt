@@ -1,0 +1,630 @@
+1
+00:00:00,000 --> 00:00:05,000
+NCAA Tournament Seed Prediction
+Technical Design Video
+
+2
+00:00:05,000 --> 00:00:10,000
+Hi, I'm Om. In this video I'll walk you through
+my NCAA Tournament Seed Prediction model.
+
+3
+00:00:10,000 --> 00:00:16,000
+How it works, why I made specific design choices,
+and how it performs on real data.
+
+4
+00:00:16,000 --> 00:00:22,000
+The problem: given 68 teams in the NCAA tournament,
+predict each team's overall seed from 1 to 68.
+
+5
+00:00:22,000 --> 00:00:28,000
+Seed 1 is the best team.
+Seed 68 is the last team in the bracket.
+
+6
+00:00:28,000 --> 00:00:35,000
+This is harder than it sounds. We're not predicting
+seed lines — we're predicting exact overall ordering.
+
+7
+00:00:35,000 --> 00:00:42,000
+There are four 1-seeds, four 2-seeds, and so on.
+The ordering between them matters. That's 68 unique positions.
+
+8
+00:00:42,000 --> 00:00:50,000
+The NCAA selection committee doesn't follow a formula.
+They use NET rankings, strength of schedule, resume quality,
+
+9
+00:00:50,000 --> 00:00:57,000
+and what they call the "eye test." Two teams with nearly
+identical stats can end up 10 seeds apart.
+
+10
+00:00:57,000 --> 00:01:05,000
+Our training data is limited — only 5 past seasons,
+2020-21 through 2024-25, giving us 340 labeled teams.
+
+11
+00:01:05,000 --> 00:01:12,000
+That's not a lot of data to learn from,
+so every modeling decision has to be intentional.
+
+12
+00:01:12,000 --> 00:01:19,000
+Our data comes from NCAA NET rankings —
+20 raw columns per team.
+
+13
+00:01:19,000 --> 00:01:27,000
+NET Rank, strength of schedule, win-loss records
+broken down by quadrant quality,
+
+14
+00:01:27,000 --> 00:01:35,000
+conference stats, and bid type — whether a team earned
+an At-Large bid or won their conference tournament.
+
+15
+00:01:35,000 --> 00:01:43,000
+Now let me explain the core insight of my model —
+why I use pairwise comparison instead of direct regression.
+
+16
+00:01:43,000 --> 00:01:51,000
+Most approaches would train a model to predict:
+"given these stats, what seed does this team get?"
+
+17
+00:01:51,000 --> 00:01:58,000
+The problem with direct regression is that it tries
+to learn absolute seed values.
+
+18
+00:01:58,000 --> 00:02:06,000
+But seeds are fundamentally relative. Duke getting seed 1
+only means Duke is better than the other 67 teams.
+
+19
+00:02:06,000 --> 00:02:13,000
+The exact number depends on who else is in the field.
+
+20
+00:02:13,000 --> 00:02:21,000
+So my model asks a different question:
+given two teams, which one gets the better seed?
+
+21
+00:02:21,000 --> 00:02:28,000
+For every pair of teams in the same season,
+I compute the feature difference between them.
+
+22
+00:02:28,000 --> 00:02:35,000
+A logistic regression learns to predict
+which team ranks higher.
+
+23
+00:02:35,000 --> 00:02:42,000
+Here's the function — build_pairwise_data.
+For every pair, I compute features_A minus features_B.
+
+24
+00:02:42,000 --> 00:02:49,000
+The target is 1 if team A has the better seed.
+I also include the reverse pair for symmetry.
+
+25
+00:02:49,000 --> 00:02:56,000
+With 68 teams per season, that generates about
+4,500 training pairs per season.
+
+26
+00:02:56,000 --> 00:03:04,000
+At prediction time, I score each test team
+against every other test team.
+
+27
+00:03:04,000 --> 00:03:11,000
+The team that wins the most pairwise comparisons
+gets the best raw score. Like a round-robin tournament.
+
+28
+00:03:11,000 --> 00:03:18,000
+This voting mechanism is much more robust than
+direct regression because it captures relative quality.
+
+29
+00:03:18,000 --> 00:03:26,000
+I also discovered that not all pairs are equally informative.
+Comparing the #1 team to #68 is trivially easy.
+
+30
+00:03:26,000 --> 00:03:33,000
+So my main model component trains only on adjacent pairs —
+teams whose seeds are within 30 of each other.
+
+31
+00:03:33,000 --> 00:03:40,000
+This focuses training on the hard,
+meaningful comparisons and reduces noise.
+
+32
+00:03:40,000 --> 00:03:48,000
+Here you can see the build_pairwise_data_adjacent function.
+It filters out pairs with a seed gap larger than 30.
+
+33
+00:03:48,000 --> 00:03:55,000
+Now let me explain the three-model blend.
+I don't rely on a single pairwise model.
+
+34
+00:03:55,000 --> 00:04:03,000
+I blend three separate models,
+each capturing different aspects of the data.
+
+35
+00:04:03,000 --> 00:04:11,000
+This is the predict_robust_blend function —
+the core prediction engine.
+
+36
+00:04:11,000 --> 00:04:19,000
+Component 1 gets 64% of the weight.
+Logistic regression, C equals 5.0, all 68 features.
+
+37
+00:04:19,000 --> 00:04:26,000
+Trained only on adjacent pairs with gap 30 or less.
+This is the workhorse of the model.
+
+38
+00:04:26,000 --> 00:04:34,000
+Component 3 gets 28% of the weight.
+Logistic regression, C equals 0.5 — much more regularized.
+
+39
+00:04:34,000 --> 00:04:41,000
+It only uses the top 25 features, selected by combined
+Ridge, Random Forest, and XGBoost importance ranking.
+
+40
+00:04:41,000 --> 00:04:48,000
+This acts as a regularization check — if the full model
+is overfitting, the top-25 model pulls it back.
+
+41
+00:04:48,000 --> 00:04:56,000
+Component 4 gets 8% of the weight.
+A pairwise XGBoost classifier.
+
+42
+00:04:56,000 --> 00:05:03,000
+XGBoost captures nonlinear interactions that logistic
+regression misses — like how NET rank matters more
+
+43
+00:05:03,000 --> 00:05:10,000
+when strength of schedule is also strong.
+Small weight because XGBoost overfits on small data.
+
+44
+00:05:10,000 --> 00:05:18,000
+These blend weights — 64, 28, 8 — were selected
+through leave-one-season-out cross-validation.
+
+45
+00:05:18,000 --> 00:05:25,000
+They represent the best balance between
+model expressiveness and robustness.
+
+46
+00:05:25,000 --> 00:05:33,000
+Now let's look at feature engineering.
+From 20 raw columns, I create 68 features.
+
+47
+00:05:33,000 --> 00:05:40,000
+This is the build_features function —
+the largest function in the codebase.
+
+48
+00:05:40,000 --> 00:05:48,000
+Raw rankings: NET Rank, Previous NET,
+Strength of Schedule, Average Opponent NET Rank.
+
+49
+00:05:48,000 --> 00:05:55,000
+These are the committee's primary inputs.
+The model needs to understand what the committee sees.
+
+50
+00:05:55,000 --> 00:06:03,000
+Win-loss percentages: I parse four different W-L records —
+overall, conference, non-conference, and road.
+
+51
+00:06:03,000 --> 00:06:10,000
+The committee weighs road wins heavily,
+so road win percentage is a key feature.
+
+52
+00:06:10,000 --> 00:06:18,000
+Quadrant records: The NCAA divides opponents
+into four quality tiers.
+
+53
+00:06:18,000 --> 00:06:25,000
+Q1 wins are resume gold.
+Q3 and Q4 losses are resume killers.
+
+54
+00:06:25,000 --> 00:06:33,000
+I compute Q1 win rate, Q1 dominance, total bad losses,
+quad balance, and quality ratio from these.
+
+55
+00:06:33,000 --> 00:06:40,000
+Composite features are where domain knowledge comes in.
+adj_net adjusts NET by penalizing Q3 and Q4 losses.
+
+56
+00:06:40,000 --> 00:06:48,000
+sos_adj_net corrects NET for weak schedules —
+a team with NET 20 but SOS 200 isn't that good.
+
+57
+00:06:48,000 --> 00:06:55,000
+power_rating combines NET, SOS, Q1 wins,
+win percentage, and momentum into one score.
+
+58
+00:06:55,000 --> 00:07:03,000
+Bid type interactions: aq_sos_penalty captures
+how Auto-Qualifier teams from weak conferences
+
+59
+00:07:03,000 --> 00:07:10,000
+get penalized by the committee even when
+their NET ranking is strong.
+
+60
+00:07:10,000 --> 00:07:18,000
+Tournament field rank is how a team ranks by NET
+among the 68 tournament teams only.
+
+61
+00:07:18,000 --> 00:07:25,000
+A team could be NET 40 overall but ranked 30
+among tournament teams. That distinction matters.
+
+62
+00:07:25,000 --> 00:07:33,000
+Conference-bid historical seed is the average seed
+that teams from the same conference and bid type
+
+63
+00:07:33,000 --> 00:07:40,000
+have historically received. This gives the model
+a prior expectation based on conference reputation.
+
+64
+00:07:40,000 --> 00:07:48,000
+These 68 features give the pairwise model
+a rich multidimensional view of each team.
+
+65
+00:07:48,000 --> 00:07:56,000
+Next — Hungarian assignment. After the pairwise blend
+produces raw scores — continuous values —
+
+66
+00:07:56,000 --> 00:08:03,000
+I need to convert them into discrete seeds 1 to 68.
+Here's the critical constraint:
+
+67
+00:08:03,000 --> 00:08:10,000
+each seed must be assigned to exactly one team.
+You can't give two teams seed 15.
+
+68
+00:08:10,000 --> 00:08:18,000
+This is a classic assignment problem. I solve it
+with the Hungarian algorithm — here's the function.
+
+69
+00:08:18,000 --> 00:08:25,000
+I build a cost matrix where the cost of assigning
+team i to seed j is the absolute difference
+
+70
+00:08:25,000 --> 00:08:32,000
+between team i's raw score and seed j,
+raised to a power of 0.15.
+
+71
+00:08:32,000 --> 00:08:40,000
+The power of 0.15 is important — it flattens
+the cost function, making the algorithm more willing
+
+72
+00:08:40,000 --> 00:08:47,000
+to shift teams by a few positions to find
+the globally optimal assignment.
+
+73
+00:08:47,000 --> 00:08:55,000
+The Hungarian algorithm finds the assignment
+that minimizes total cost across all 68 teams.
+
+74
+00:08:55,000 --> 00:09:02,000
+This guarantees a valid bracket —
+exactly one team per seed, every time.
+
+75
+00:09:02,000 --> 00:09:10,000
+Now — the Dual-Hungarian ensemble.
+On top of the pairwise base, I run a second model.
+
+76
+00:09:10,000 --> 00:09:18,000
+A Ridge regression using just 8 features.
+Here's the build_min8_features function.
+
+77
+00:09:18,000 --> 00:09:25,000
+The 8 features: tournament field rank, win percentage,
+conference-bid historical mean, NET rank,
+
+78
+00:09:25,000 --> 00:09:32,000
+strength of schedule, average opponent NET,
+power-conference SOS interaction, and conf-bid × AQ.
+
+79
+00:09:32,000 --> 00:09:40,000
+Why so few features? This committee model captures
+biases the 68-feature pairwise model misses.
+
+80
+00:09:40,000 --> 00:09:47,000
+Tournament field rank alone explains 36%
+of the Ridge weight. It's the single most predictive
+
+81
+00:09:47,000 --> 00:09:54,000
+feature for how the committee actually seeds teams.
+
+82
+00:09:54,000 --> 00:10:02,000
+Both models independently go through
+Hungarian assignment. Then I average
+
+83
+00:10:02,000 --> 00:10:09,000
+their assignments — 75% pairwise, 25% committee —
+and run a final Hungarian for a valid result.
+
+84
+00:10:09,000 --> 00:10:16,000
+The ensemble outperforms either model alone
+because the models make different kinds of errors.
+
+85
+00:10:16,000 --> 00:10:24,000
+Now the signature feature of this model:
+7 Zone Corrections.
+
+86
+00:10:24,000 --> 00:10:32,000
+Even after the dual-Hungarian, the model has
+systematic biases in certain seed ranges.
+
+87
+00:10:32,000 --> 00:10:39,000
+Different parts of the bracket have
+different error patterns.
+
+88
+00:10:39,000 --> 00:10:47,000
+Here are the zone constant definitions at the top.
+Each zone targets a specific seed range.
+
+89
+00:10:47,000 --> 00:10:55,000
+Zone 1 — Mid-range, seeds 17 to 34.
+The hardest zone to predict.
+
+90
+00:10:55,000 --> 00:11:02,000
+Teams are closely bunched here. The committee weighs
+strength of schedule heavily in this range.
+
+91
+00:11:02,000 --> 00:11:10,000
+I apply an SOS-based correction: take all test teams
+in seeds 17-34, re-order them using SOS gap,
+
+92
+00:11:10,000 --> 00:11:17,000
+then run a constrained Hungarian
+within just that zone.
+
+93
+00:11:17,000 --> 00:11:25,000
+Zone 2 — Upper-mid, seeds 34 to 44.
+The most chaotic committee behavior.
+
+94
+00:11:25,000 --> 00:11:32,000
+Murray State in 2021-22 had NET rank 21
+but got seeded 40 — a massive gap.
+
+95
+00:11:32,000 --> 00:11:40,000
+This zone uses reverse corrections —
+AQ penalty, AL benefit, SOS in opposite directions.
+
+96
+00:11:40,000 --> 00:11:48,000
+Zones 3 through 7 cover seeds 42 through 68 —
+where auto-qualifier teams from small conferences
+
+97
+00:11:48,000 --> 00:11:55,000
+are being ordered. Correction signals shift to
+NET vs conference average, conference-bid history,
+
+98
+00:11:55,000 --> 00:12:02,000
+and average opponent strength.
+
+99
+00:12:02,000 --> 00:12:10,000
+The key principle: within each zone, I only re-order
+test teams among their already-assigned seeds.
+
+100
+00:12:10,000 --> 00:12:17,000
+I never add or remove seeds. Zone corrections
+can only help — they swap misplaced teams.
+
+101
+00:12:17,000 --> 00:12:25,000
+Across 5 seasons, zone corrections improve
+31 team assignments and only hurt 2.
+
+102
+00:12:25,000 --> 00:12:32,000
+That's 57 exact matches with just the base model,
+up to 83 out of 91 after all corrections.
+
+103
+00:12:32,000 --> 00:12:40,000
+Now let me validate the model live.
+I'll run the Kaggle submission generator.
+
+104
+00:12:40,000 --> 00:12:47,000
+This uses leave-one-season-out cross-validation.
+When predicting 2022-23, it trains on the other 4.
+
+105
+00:12:47,000 --> 00:12:55,000
+Running: python3 generate_kaggle_submission.py
+This takes about 7 seconds...
+
+106
+00:12:55,000 --> 00:13:03,000
+83 out of 91 test teams predicted with
+the exact correct seed — 91.2% accuracy.
+
+107
+00:13:03,000 --> 00:13:10,000
+2022-23 is perfect at 21 out of 21.
+2023-24 is the hardest at 19 out of 21. RMSE is 0.39.
+
+108
+00:13:10,000 --> 00:13:18,000
+You can see every team the zone corrections changed.
+Stars indicate improvements — 29 out of 31 swaps helped.
+
+109
+00:13:18,000 --> 00:13:25,000
+Only 2 teams were hurt — and only by 1 seed each.
+
+110
+00:13:25,000 --> 00:13:33,000
+I want to be transparent about overfitting risk.
+The zone parameters were tuned on these same 91 teams.
+
+111
+00:13:33,000 --> 00:13:40,000
+The pairwise base and Hungarian assignment
+are fundamentally sound and will transfer to 2026.
+
+112
+00:13:40,000 --> 00:13:48,000
+But the exact zone parameter values may not
+perfectly transfer. On truly unseen data,
+
+113
+00:13:48,000 --> 00:13:55,000
+I estimate realistically 60 to 70 percent
+exact match accuracy, with RMSE around 2 to 3.
+
+114
+00:13:55,000 --> 00:14:03,000
+The model's real strength is the architecture —
+pairwise comparison plus Hungarian plus zone corrections.
+
+115
+00:14:03,000 --> 00:14:10,000
+Now let me show the full 2026 pipeline.
+Running the converter and predictor together.
+
+116
+00:14:10,000 --> 00:14:18,000
+The converter takes the NCAA Statistics Excel —
+365 teams — combines it with ESPN bracketology
+
+117
+00:14:18,000 --> 00:14:25,000
+for the 68 tournament teams,
+and outputs a model-ready CSV.
+
+118
+00:14:25,000 --> 00:14:33,000
+Running: python3 convert_to_model_data.py
+followed by python3 predict_2026.py
+
+119
+00:14:33,000 --> 00:14:40,000
+68 out of 68 teams matched successfully.
+The model trains on 340 historical teams
+
+120
+00:14:40,000 --> 00:14:47,000
+and predicts the new 2026 season.
+Here are our predictions.
+
+121
+00:14:47,000 --> 00:14:54,000
+Duke is our overall 1-seed, followed by Michigan,
+Arizona, and Florida. Houston at 5, Illinois at 6.
+
+122
+00:14:54,000 --> 00:15:02,000
+These predictions update automatically as new data
+arrives — I'll refresh on March 14th
+
+123
+00:15:02,000 --> 00:15:09,000
+when conference tournaments finish
+and the field is finalized.
+
+124
+00:15:09,000 --> 00:15:17,000
+To summarize — three key ideas. One: pairwise comparison
+learns relative quality instead of absolute seeds.
+
+125
+00:15:17,000 --> 00:15:25,000
+Two: Hungarian assignment enforces valid
+one-to-one seed mapping.
+
+126
+00:15:25,000 --> 00:15:33,000
+Three: zone corrections fix systematic committee biases
+in specific seed ranges. Together — 91% accuracy
+
+127
+00:15:33,000 --> 00:15:40,000
+on 5 seasons of historical data.
+Thank you for watching.

@@ -26,9 +26,12 @@ Predicts the 1–68 overall seed for all 68 teams in the NCAA March Madness tour
 
 ```
 ncaa_2026_model.py            # Production model (all functions + constants)
-generate_kaggle_submission.py # Generates Kaggle submission CSV
+generate_kaggle_submission.py # Generates Kaggle submission CSV (training/test)
+convert_to_model_data.py      # Converts NCAA Stats Excel → model-ready CSV
 predict_2026.py               # One-command 2026 prediction runner
-data/                         # Training/test CSVs + templates
+data/                         # Training/test CSVs, templates, raw Excel
+output/                       # All generated predictions & submissions
+  └── 2026/                   #   2026 bracket predictions & submission files
 analysis/                     # Generalization & robustness analysis scripts
 notebooks/                    # Jupyter notebooks (exploration)
 archive/                      # Development history (v4-v50, experiments)
@@ -40,15 +43,17 @@ logs/                         # Output logs from experiments
 ### Generate Kaggle Submission (on training/test data)
 ```bash
 python generate_kaggle_submission.py
-# → submission_kaggle.csv
+# → output/submission_kaggle.csv
 ```
 
 ### Predict 2026 Tournament
 ```bash
-# 1. Fill in data/NCAA_2026_Data.csv with 68 team stats
-# 2. Run:
+# 1. Place NCAA Statistics.xlsx in data/
+# 2. Run the converter (maps Excel + ESPN bracket → model format):
+python convert_to_model_data.py
+# 3. Run predictions:
 python predict_2026.py
-# → submission_2026.csv
+# → output/2026/submission_2026.csv
 ```
 
 ### Run Generalization Analysis

@@ -1,0 +1,27 @@
+======================================================================
+v21: Combined Champion — GT Pooling + Winning Features
+======================================================================
+  Train tournament: 249, Test tournament (GT): 91
+
+  Building features...
+  Features: 83
+
+  Top-10 features by MI:
+    1. tourn_field_rank (MI=1.3683)
+    2. tourn_field_pctile (MI=1.3598)
+    3. net_to_seed_expected (MI=1.3138)
+    4. net_sqrt (MI=1.2968)
+    5. net_log (MI=1.2799)
+    6. NET Rank (MI=1.2604)
+    7. elo_proxy (MI=1.2577)
+    8. PrevNET (MI=1.2541)
+    9. net_x_wpct (MI=1.1746)
+    10. record_vs_sos (MI=1.1594)
+
+======================================================================
+POOL-LOO: Training with 249 + GT teams, LOO for each GT team
+======================================================================
+  Pool size: 340 (249 train + 91 GT test)
+  LOO for 91 GT test teams...
+  Fold 1/91 (1s)
+  Fold 16/91 (228s)

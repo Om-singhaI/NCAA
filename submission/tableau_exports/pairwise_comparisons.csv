@@ -1,0 +1,115 @@
+Season,Team_A,Team_B,Team_A_Seed,Team_B_Seed,Team_A_Pred,Team_B_Pred,Seed_Gap,Is_Swapped,Team_A_NET,Team_B_NET,NET_Difference,Team_A_Conf,Team_B_Conf,Team_A_Bid,Team_B_Bid,Both_Same_Conf,AQ_vs_AL,Comparison_Label
+2020-21,Arkansas,Purdue,9,14,9,14,5,False,14.0,22.0,-8.0,SEC,Big Ten,AL,AL,0,0,Arkansas vs Purdue
+2020-21,Purdue,Oklahoma St.,14,15,14,15,1,False,22.0,29.0,-7.0,Big Ten,Big 12,AL,AL,0,0,Purdue vs Oklahoma St.
+2020-21,Southern California,Texas Tech,21,22,21,22,1,False,19.0,16.0,3.0,Pac-12,Big 12,AL,AL,0,0,Southern California vs Texas Tech
+2020-21,Syracuse,UCLA,41,44,41,44,3,False,40.0,46.0,-6.0,ACC,Pac-12,AL,AL,0,0,Syracuse vs UCLA
+2020-21,UCLA,Winthrop,44,49,44,49,5,False,46.0,55.0,-9.0,Pac-12,Big South,AL,AQ,0,1,UCLA vs Winthrop
+2020-21,Winthrop,UC Santa Barbara,49,50,49,51,1,False,55.0,54.0,1.0,Big South,Big West,AQ,AQ,0,0,Winthrop vs UC Santa Barbara
+2020-21,Winthrop,Ohio,49,51,49,50,2,False,55.0,87.0,-32.0,Big South,MAC,AQ,AQ,0,0,Winthrop vs Ohio
+2020-21,Winthrop,Liberty,49,53,49,53,4,False,55.0,86.0,-31.0,Big South,ASUN,AQ,AQ,0,0,Winthrop vs Liberty
+2020-21,Winthrop,UNC Greensboro,49,54,49,54,5,False,55.0,84.0,-29.0,Big South,SoCon,AQ,AQ,0,0,Winthrop vs UNC Greensboro
+2020-21,UC Santa Barbara,Ohio,50,51,51,50,1,True,54.0,87.0,-33.0,Big West,MAC,AQ,AQ,0,0,UC Santa Barbara vs Ohio
+2020-21,UC Santa Barbara,Liberty,50,53,51,53,3,False,54.0,86.0,-32.0,Big West,ASUN,AQ,AQ,0,0,UC Santa Barbara vs Liberty
+2020-21,UC Santa Barbara,UNC Greensboro,50,54,51,54,4,False,54.0,84.0,-30.0,Big West,SoCon,AQ,AQ,0,0,UC Santa Barbara vs UNC Greensboro
+2020-21,UC Santa Barbara,Abilene Christian,50,55,51,55,5,False,54.0,74.0,-20.0,Big West,Southland,AQ,AQ,0,0,UC Santa Barbara vs Abilene Christian
+2020-21,Ohio,Liberty,51,53,50,53,2,False,87.0,86.0,1.0,MAC,ASUN,AQ,AQ,0,0,Ohio vs Liberty
+2020-21,Ohio,UNC Greensboro,51,54,50,54,3,False,87.0,84.0,3.0,MAC,SoCon,AQ,AQ,0,0,Ohio vs UNC Greensboro
+2020-21,Ohio,Abilene Christian,51,55,50,55,4,False,87.0,74.0,13.0,MAC,Southland,AQ,AQ,0,0,Ohio vs Abilene Christian
+2020-21,Liberty,UNC Greensboro,53,54,53,54,1,False,86.0,84.0,2.0,ASUN,SoCon,AQ,AQ,0,0,Liberty vs UNC Greensboro
+2020-21,Liberty,Abilene Christian,53,55,53,55,2,False,86.0,74.0,12.0,ASUN,Southland,AQ,AQ,0,0,Liberty vs Abilene Christian
+2020-21,UNC Greensboro,Abilene Christian,54,55,54,55,1,False,84.0,74.0,10.0,SoCon,Southland,AQ,AQ,0,0,UNC Greensboro vs Abilene Christian
+2020-21,UNC Greensboro,Grand Canyon,54,59,54,59,5,False,84.0,107.0,-23.0,SoCon,WAC,AQ,AQ,0,0,UNC Greensboro vs Grand Canyon
+2020-21,Abilene Christian,Grand Canyon,55,59,55,59,4,False,74.0,107.0,-33.0,Southland,WAC,AQ,AQ,0,0,Abilene Christian vs Grand Canyon
+2020-21,Grand Canyon,Drexel,59,63,59,63,4,False,107.0,135.0,-28.0,WAC,CAA,AQ,AQ,0,0,Grand Canyon vs Drexel
+2020-21,Drexel,Mount St. Mary's,63,65,63,65,2,False,135.0,159.0,-24.0,CAA,NEC,AQ,AQ,0,0,Drexel vs Mount St. Mary's
+2021-22,Texas Tech,Illinois,12,14,12,14,2,False,9.0,15.0,-6.0,Big 12,Big Ten,AL,AL,0,0,Texas Tech vs Illinois
+2021-22,Iowa,Southern California,20,25,20,26,5,False,14.0,35.0,-21.0,Big Ten,Pac-12,AQ,AL,0,1,Iowa vs Southern California
+2021-22,Southern California,Murray St.,25,26,26,25,1,True,35.0,21.0,14.0,Pac-12,OVC,AL,AQ,0,1,Southern California vs Murray St.
+2021-22,Creighton,TCU,33,34,33,34,1,False,55.0,44.0,11.0,Big East,Big 12,AL,AL,0,0,Creighton vs TCU
+2021-22,Creighton,San Francisco,33,37,33,37,4,False,55.0,22.0,33.0,Big East,WCC,AL,AL,0,0,Creighton vs San Francisco
+2021-22,TCU,San Francisco,34,37,34,37,3,False,44.0,22.0,22.0,Big 12,WCC,AL,AL,0,0,TCU vs San Francisco
+2021-22,San Francisco,Davidson,37,40,37,40,3,False,22.0,41.0,-19.0,WCC,Atlantic 10,AL,AL,0,0,San Francisco vs Davidson
+2021-22,San Francisco,Iowa St.,37,41,37,41,4,False,22.0,49.0,-27.0,WCC,Big 12,AL,AL,0,0,San Francisco vs Iowa St.
+2021-22,Davidson,Iowa St.,40,41,40,41,1,False,41.0,49.0,-8.0,Atlantic 10,Big 12,AL,AL,0,0,Davidson vs Iowa St.
+2021-22,Davidson,Wyoming,40,43,40,43,3,False,41.0,50.0,-9.0,Atlantic 10,Mountain West,AL,AL,0,0,Davidson vs Wyoming
+2021-22,Iowa St.,Wyoming,41,43,41,43,2,False,49.0,50.0,-1.0,Big 12,Mountain West,AL,AL,0,0,Iowa St. vs Wyoming
+2021-22,Wyoming,Notre Dame,43,47,43,47,4,False,50.0,53.0,-3.0,Mountain West,ACC,AL,AL,0,0,Wyoming vs Notre Dame
+2021-22,Notre Dame,Richmond,47,49,47,49,2,False,53.0,81.0,-28.0,ACC,Atlantic 10,AL,AQ,0,1,Notre Dame vs Richmond
+2021-22,Notre Dame,Chattanooga,47,51,47,51,4,False,53.0,63.0,-10.0,ACC,SoCon,AL,AQ,0,1,Notre Dame vs Chattanooga
+2021-22,Notre Dame,South Dakota St.,47,52,47,52,5,False,53.0,65.0,-12.0,ACC,Summit League,AL,AQ,0,1,Notre Dame vs South Dakota St.
+2021-22,Richmond,Chattanooga,49,51,49,51,2,False,81.0,63.0,18.0,Atlantic 10,SoCon,AQ,AQ,0,0,Richmond vs Chattanooga
+2021-22,Richmond,South Dakota St.,49,52,49,52,3,False,81.0,65.0,16.0,Atlantic 10,Summit League,AQ,AQ,0,0,Richmond vs South Dakota St.
+2021-22,Chattanooga,South Dakota St.,51,52,51,52,1,False,63.0,65.0,-2.0,SoCon,Summit League,AQ,AQ,0,0,Chattanooga vs South Dakota St.
+2022-23,Alabama,Kansas,1,3,1,3,2,False,2.0,9.0,-7.0,SEC,Big 12,AQ,AL,0,1,Alabama vs Kansas
+2022-23,Baylor,Xavier,9,12,9,12,3,False,15.0,22.0,-7.0,Big 12,Big East,AL,AL,0,0,Baylor vs Xavier
+2022-23,Xavier,San Diego St.,12,17,12,17,5,False,22.0,14.0,8.0,Big East,Mountain West,AL,AQ,0,1,Xavier vs San Diego St.
+2022-23,San Diego St.,Miami (FL),17,20,17,20,3,False,14.0,35.0,-21.0,Mountain West,ACC,AQ,AL,0,1,San Diego St. vs Miami (FL)
+2022-23,Northwestern,Arkansas,28,30,28,30,2,False,41.0,21.0,20.0,Big Ten,SEC,AL,AL,0,0,Northwestern vs Arkansas
+2022-23,Southern California,Mississippi St.,39,43,39,43,4,False,50.0,49.0,1.0,Pac-12,SEC,AL,AL,0,0,Southern California vs Mississippi St.
+2022-23,Mississippi St.,Col. of Charleston,43,47,43,47,4,False,49.0,51.0,-2.0,SEC,CAA,AL,AQ,0,1,Mississippi St. vs Col. of Charleston
+2022-23,Col. of Charleston,Drake,47,49,47,49,2,False,51.0,55.0,-4.0,CAA,MVC,AQ,AQ,0,0,Col. of Charleston vs Drake
+2022-23,Col. of Charleston,VCU,47,50,47,50,3,False,51.0,53.0,-2.0,CAA,Atlantic 10,AQ,AQ,0,0,Col. of Charleston vs VCU
+2022-23,Col. of Charleston,Kent St.,47,51,47,51,4,False,51.0,59.0,-8.0,CAA,MAC,AQ,AQ,0,0,Col. of Charleston vs Kent St.
+2022-23,Drake,VCU,49,50,49,50,1,False,55.0,53.0,2.0,MVC,Atlantic 10,AQ,AQ,0,0,Drake vs VCU
+2022-23,Drake,Kent St.,49,51,49,51,2,False,55.0,59.0,-4.0,MVC,MAC,AQ,AQ,0,0,Drake vs Kent St.
+2022-23,Drake,Furman,49,53,49,53,4,False,55.0,88.0,-33.0,MVC,SoCon,AQ,AQ,0,0,Drake vs Furman
+2022-23,Drake,Louisiana,49,54,49,54,5,False,55.0,89.0,-34.0,MVC,Sun Belt,AQ,AQ,0,0,Drake vs Louisiana
+2022-23,VCU,Kent St.,50,51,50,51,1,False,53.0,59.0,-6.0,Atlantic 10,MAC,AQ,AQ,0,0,VCU vs Kent St.
+2022-23,VCU,Furman,50,53,50,53,3,False,53.0,88.0,-35.0,Atlantic 10,SoCon,AQ,AQ,0,0,VCU vs Furman
+2022-23,VCU,Louisiana,50,54,50,54,4,False,53.0,89.0,-36.0,Atlantic 10,Sun Belt,AQ,AQ,0,0,VCU vs Louisiana
+2022-23,Kent St.,Furman,51,53,51,53,2,False,59.0,88.0,-29.0,MAC,SoCon,AQ,AQ,0,0,Kent St. vs Furman
+2022-23,Kent St.,Louisiana,51,54,51,54,3,False,59.0,89.0,-30.0,MAC,Sun Belt,AQ,AQ,0,0,Kent St. vs Louisiana
+2022-23,Kent St.,UC Santa Barbara,51,56,51,56,5,False,59.0,100.0,-41.0,MAC,Big West,AQ,AQ,0,0,Kent St. vs UC Santa Barbara
+2022-23,Furman,Louisiana,53,54,53,54,1,False,88.0,89.0,-1.0,SoCon,Sun Belt,AQ,AQ,0,0,Furman vs Louisiana
+2022-23,Furman,UC Santa Barbara,53,56,53,56,3,False,88.0,100.0,-12.0,SoCon,Big West,AQ,AQ,0,0,Furman vs UC Santa Barbara
+2022-23,Furman,Montana St.,53,58,53,58,5,False,88.0,103.0,-15.0,SoCon,Big Sky,AQ,AQ,0,0,Furman vs Montana St.
+2022-23,Louisiana,UC Santa Barbara,54,56,54,56,2,False,89.0,100.0,-11.0,Sun Belt,Big West,AQ,AQ,0,0,Louisiana vs UC Santa Barbara
+2022-23,Louisiana,Montana St.,54,58,54,58,4,False,89.0,103.0,-14.0,Sun Belt,Big Sky,AQ,AQ,0,0,Louisiana vs Montana St.
+2022-23,UC Santa Barbara,Montana St.,56,58,56,58,2,False,100.0,103.0,-3.0,Big West,Big Sky,AQ,AQ,0,0,UC Santa Barbara vs Montana St.
+2022-23,A&M-Corpus Christi,Texas Southern,65,66,65,66,1,False,175.0,294.0,-119.0,Southland,SWAC,AQ,AQ,0,0,A&M-Corpus Christi vs Texas Southern
+2022-23,A&M-Corpus Christi,Southeast Mo. St.,65,67,65,67,2,False,175.0,242.0,-67.0,Southland,OVC,AQ,AQ,0,0,A&M-Corpus Christi vs Southeast Mo. St.
+2022-23,Texas Southern,Southeast Mo. St.,66,67,66,67,1,False,294.0,242.0,52.0,SWAC,OVC,AQ,AQ,0,0,Texas Southern vs Southeast Mo. St.
+2023-24,Marquette,Baylor,7,9,7,9,2,False,14.0,15.0,-1.0,Big East,Big 12,AL,AL,0,0,Marquette vs Baylor
+2023-24,Alabama,Wisconsin,16,19,16,19,3,False,9.0,21.0,-12.0,SEC,Big Ten,AL,AL,0,0,Alabama vs Wisconsin
+2023-24,Wisconsin,Clemson,19,22,19,24,3,False,21.0,35.0,-14.0,Big Ten,ACC,AL,AL,0,0,Wisconsin vs Clemson
+2023-24,Wisconsin,South Carolina,19,24,19,22,5,False,21.0,51.0,-30.0,Big Ten,SEC,AL,AL,0,0,Wisconsin vs South Carolina
+2023-24,Clemson,South Carolina,22,24,24,22,2,True,35.0,51.0,-16.0,ACC,SEC,AL,AL,0,0,Clemson vs South Carolina
+2023-24,Clemson,Washington St.,22,26,24,26,4,False,35.0,44.0,-9.0,ACC,Pac-12,AL,AL,0,0,Clemson vs Washington St.
+2023-24,South Carolina,Washington St.,24,26,22,26,2,False,51.0,44.0,7.0,SEC,Pac-12,AL,AL,0,0,South Carolina vs Washington St.
+2023-24,Northwestern,Virginia,36,41,36,41,5,False,53.0,54.0,-1.0,Big Ten,ACC,AL,AL,0,0,Northwestern vs Virginia
+2023-24,Virginia,New Mexico,41,42,41,42,1,False,54.0,22.0,32.0,ACC,Mountain West,AL,AQ,0,1,Virginia vs New Mexico
+2023-24,Virginia,Oregon,41,43,41,43,2,False,54.0,59.0,-5.0,ACC,Pac-12,AL,AQ,0,1,Virginia vs Oregon
+2023-24,Virginia,NC State,41,45,41,45,4,False,54.0,63.0,-9.0,ACC,ACC,AL,AQ,1,1,Virginia vs NC State
+2023-24,New Mexico,Oregon,42,43,42,43,1,False,22.0,59.0,-37.0,Mountain West,Pac-12,AQ,AQ,0,0,New Mexico vs Oregon
+2023-24,New Mexico,NC State,42,45,42,45,3,False,22.0,63.0,-41.0,Mountain West,ACC,AQ,AQ,0,0,New Mexico vs NC State
+2023-24,New Mexico,Grand Canyon,42,47,42,47,5,False,22.0,50.0,-28.0,Mountain West,WAC,AQ,AQ,0,0,New Mexico vs Grand Canyon
+2023-24,Oregon,NC State,43,45,43,45,2,False,59.0,63.0,-4.0,Pac-12,ACC,AQ,AQ,0,0,Oregon vs NC State
+2023-24,Oregon,Grand Canyon,43,47,43,47,4,False,59.0,50.0,9.0,Pac-12,WAC,AQ,AQ,0,0,Oregon vs Grand Canyon
+2023-24,NC State,Grand Canyon,45,47,45,47,2,False,63.0,50.0,13.0,ACC,WAC,AQ,AQ,0,0,NC State vs Grand Canyon
+2023-24,Morehead St.,Long Beach St.,57,59,57,59,2,False,106.0,170.0,-64.0,OVC,Big West,AQ,AQ,0,0,Morehead St. vs Long Beach St.
+2023-24,Morehead St.,Western Ky.,57,60,57,60,3,False,106.0,136.0,-30.0,OVC,CUSA,AQ,AQ,0,0,Morehead St. vs Western Ky.
+2023-24,Morehead St.,South Dakota St.,57,61,57,61,4,False,106.0,135.0,-29.0,OVC,Summit League,AQ,AQ,0,0,Morehead St. vs South Dakota St.
+2023-24,Morehead St.,Saint Peter's,57,62,57,62,5,False,106.0,188.0,-82.0,OVC,MAAC,AQ,AQ,0,0,Morehead St. vs Saint Peter's
+2023-24,Long Beach St.,Western Ky.,59,60,59,60,1,False,170.0,136.0,34.0,Big West,CUSA,AQ,AQ,0,0,Long Beach St. vs Western Ky.
+2023-24,Long Beach St.,South Dakota St.,59,61,59,61,2,False,170.0,135.0,35.0,Big West,Summit League,AQ,AQ,0,0,Long Beach St. vs South Dakota St.
+2023-24,Long Beach St.,Saint Peter's,59,62,59,62,3,False,170.0,188.0,-18.0,Big West,MAAC,AQ,AQ,0,0,Long Beach St. vs Saint Peter's
+2023-24,Long Beach St.,Longwood,59,63,59,63,4,False,170.0,162.0,8.0,Big West,Big South,AQ,AQ,0,0,Long Beach St. vs Longwood
+2023-24,Western Ky.,South Dakota St.,60,61,60,61,1,False,136.0,135.0,1.0,CUSA,Summit League,AQ,AQ,0,0,Western Ky. vs South Dakota St.
+2023-24,Western Ky.,Saint Peter's,60,62,60,62,2,False,136.0,188.0,-52.0,CUSA,MAAC,AQ,AQ,0,0,Western Ky. vs Saint Peter's
+2023-24,Western Ky.,Longwood,60,63,60,63,3,False,136.0,162.0,-26.0,CUSA,Big South,AQ,AQ,0,0,Western Ky. vs Longwood
+2023-24,Western Ky.,Montana St.,60,65,60,65,5,False,136.0,208.0,-72.0,CUSA,Big Sky,AQ,AQ,0,0,Western Ky. vs Montana St.
+2023-24,South Dakota St.,Saint Peter's,61,62,61,62,1,False,135.0,188.0,-53.0,Summit League,MAAC,AQ,AQ,0,0,South Dakota St. vs Saint Peter's
+2023-24,South Dakota St.,Longwood,61,63,61,63,2,False,135.0,162.0,-27.0,Summit League,Big South,AQ,AQ,0,0,South Dakota St. vs Longwood
+2023-24,South Dakota St.,Montana St.,61,65,61,65,4,False,135.0,208.0,-73.0,Summit League,Big Sky,AQ,AQ,0,0,South Dakota St. vs Montana St.
+2023-24,Saint Peter's,Longwood,62,63,62,63,1,False,188.0,162.0,26.0,MAAC,Big South,AQ,AQ,0,0,Saint Peter's vs Longwood
+2023-24,Saint Peter's,Montana St.,62,65,62,65,3,False,188.0,208.0,-20.0,MAAC,Big Sky,AQ,AQ,0,0,Saint Peter's vs Montana St.
+2023-24,Longwood,Montana St.,63,65,63,65,2,False,162.0,208.0,-46.0,Big South,Big Sky,AQ,AQ,0,0,Longwood vs Montana St.
+2024-25,Iowa St.,Kentucky,10,11,10,12,1,False,9.0,14.0,-5.0,Big 12,SEC,AL,AL,0,0,Iowa St. vs Kentucky
+2024-25,Iowa St.,Wisconsin,10,12,10,11,2,False,9.0,15.0,-6.0,Big 12,Big Ten,AL,AL,0,0,Iowa St. vs Wisconsin
+2024-25,Kentucky,Wisconsin,11,12,12,11,1,True,14.0,15.0,-1.0,SEC,Big Ten,AL,AL,0,0,Kentucky vs Wisconsin
+2024-25,Clemson,Memphis,18,20,18,20,2,False,22.0,49.0,-27.0,ACC,The American,AL,AQ,0,1,Clemson vs Memphis
+2024-25,UC San Diego,Yale,47,51,47,51,4,False,35.0,72.0,-37.0,Big West,Ivy League,AQ,AQ,0,0,UC San Diego vs Yale
+2024-25,Yale,Grand Canyon,51,54,51,54,3,False,72.0,92.0,-20.0,Ivy League,WAC,AQ,AQ,0,0,Yale vs Grand Canyon
+2024-25,Grand Canyon,Robert Morris,54,59,54,59,5,False,92.0,139.0,-47.0,WAC,Horizon,AQ,AQ,0,0,Grand Canyon vs Robert Morris
+2024-25,Robert Morris,Wofford,59,60,59,60,1,False,139.0,131.0,8.0,Horizon,SoCon,AQ,AQ,0,0,Robert Morris vs Wofford
+2024-25,Mount St. Mary's,Alabama St.,66,67,66,67,1,False,236.0,274.0,-38.0,MAAC,SWAC,AQ,AQ,0,0,Mount St. Mary's vs Alabama St.

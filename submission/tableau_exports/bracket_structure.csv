@@ -1,0 +1,341 @@
+Season,Team,Conference,Overall_Seed,Seed_Line,Region,Region_Index,First_Round_Opponent,Matchup_Label,Is_Favored,Bracket_Position_X,Bracket_Position_Y,NET_Rank,Predicted_Seed,Bid_Type
+2020-21,Gonzaga,WCC,1,1,East,0,Oral Roberts,(1) Gonzaga vs (16) Oral Roberts,1,0,1,1.0,1,AQ
+2020-21,Baylor,Big 12,2,1,West,1,Iona,(1) Baylor vs (16) Iona,1,1,1,2.0,2,AL
+2020-21,Illinois,Big Ten,3,1,South,2,Drexel,(1) Illinois vs (16) Drexel,1,2,1,3.0,3,AQ
+2020-21,Michigan,Big Ten,4,1,Midwest,3,Hartford,(1) Michigan vs (16) Hartford,1,3,1,4.0,4,AL
+2020-21,Alabama,SEC,5,2,East,0,Colgate,(2) Alabama vs (15) Colgate,1,0,2,7.0,5,AQ
+2020-21,Ohio St.,Big Ten,6,2,West,1,Eastern Wash.,(2) Ohio St. vs (15) Eastern Wash.,1,1,2,8.0,6,AL
+2020-21,Iowa,Big Ten,7,2,South,2,Grand Canyon,(2) Iowa vs (15) Grand Canyon,1,2,2,6.0,7,AL
+2020-21,Houston,The American,8,2,Midwest,3,Cleveland St.,(2) Houston vs (15) Cleveland St.,1,3,2,5.0,8,AQ
+2020-21,Arkansas,SEC,9,3,East,0,Liberty,(3) Arkansas vs (14) Liberty,1,0,3,14.0,9,AL
+2020-21,West Virginia,Big 12,10,3,West,1,UNC Greensboro,(3) West Virginia vs (14) UNC Greensboro,1,1,3,24.0,10,AL
+2020-21,Texas,Big 12,11,3,South,2,Abilene Christian,(3) Texas vs (14) Abilene Christian,1,2,3,21.0,11,AQ
+2020-21,Kansas,Big 12,12,3,Midwest,3,Morehead St.,(3) Kansas vs (14) Morehead St.,1,3,3,11.0,12,AL
+2020-21,Florida St.,ACC,13,4,East,0,Winthrop,(4) Florida St. vs (13) Winthrop,1,0,4,25.0,13,AL
+2020-21,Purdue,Big Ten,14,4,West,1,UC Santa Barbara,(4) Purdue vs (13) UC Santa Barbara,1,1,4,22.0,14,AL
+2020-21,Oklahoma St.,Big 12,15,4,South,2,Ohio,(4) Oklahoma St. vs (13) Ohio,1,2,4,29.0,15,AL
+2020-21,Virginia,ACC,16,4,Midwest,3,North Texas,(4) Virginia vs (13) North Texas,1,3,4,12.0,16,AL
+2020-21,Creighton,Big East,17,5,East,0,Wichita St.,(5) Creighton vs (12) Wichita St.,1,0,5,26.0,17,AL
+2020-21,Villanova,Big East,18,5,West,1,Oregon St.,(5) Villanova vs (12) Oregon St.,1,1,5,17.0,18,AL
+2020-21,Tennessee,SEC,19,5,South,2,Georgetown,(5) Tennessee vs (12) Georgetown,1,2,5,13.0,19,AL
+2020-21,Colorado,Pac-12,20,5,Midwest,3,Drake,(5) Colorado vs (12) Drake,1,3,5,15.0,20,AL
+2020-21,Southern California,Pac-12,21,6,East,0,Syracuse,(6) Southern California vs (11) Syracuse,1,0,6,19.0,21,AL
+2020-21,Texas Tech,Big 12,22,6,West,1,Utah St.,(6) Texas Tech vs (11) Utah St.,1,1,6,16.0,22,AL
+2020-21,BYU,WCC,23,6,South,2,Michigan St.,(6) BYU vs (11) Michigan St.,1,2,6,20.0,23,AL
+2020-21,San Diego St.,Mountain West,24,6,Midwest,3,UCLA,(6) San Diego St. vs (11) UCLA,1,3,6,18.0,24,AQ
+2020-21,Oregon,Pac-12,25,7,East,0,St. Bonaventure,(7) Oregon vs (10) St. Bonaventure,1,0,7,33.0,25,AL
+2020-21,UConn,Big East,26,7,West,1,Virginia Tech,(7) UConn vs (10) Virginia Tech,1,1,7,30.0,26,AL
+2020-21,Clemson,ACC,27,7,South,2,VCU,(7) Clemson vs (10) VCU,1,2,7,41.0,27,AL
+2020-21,Florida,SEC,28,7,Midwest,3,Rutgers,(7) Florida vs (10) Rutgers,1,3,7,31.0,28,AL
+2020-21,LSU,SEC,29,8,East,0,Missouri,(8) LSU vs (9) Missouri,1,0,8,28.0,29,AL
+2020-21,Loyola Chicago,MVC,30,8,West,1,Georgia Tech,(8) Loyola Chicago vs (9) Georgia Tech,1,1,8,10.0,30,AQ
+2020-21,North Carolina,ACC,31,8,South,2,Wisconsin,(8) North Carolina vs (9) Wisconsin,1,2,8,32.0,31,AL
+2020-21,Oklahoma,Big 12,32,8,Midwest,3,Maryland,(8) Oklahoma vs (9) Maryland,1,3,8,36.0,32,AL
+2020-21,Missouri,SEC,33,9,East,0,LSU,(9) Missouri vs (8) LSU,0,0,9,47.0,33,AL
+2020-21,Georgia Tech,ACC,34,9,West,1,Loyola Chicago,(9) Georgia Tech vs (8) Loyola Chicago,0,1,9,34.0,34,AQ
+2020-21,Wisconsin,Big Ten,35,9,South,2,North Carolina,(9) Wisconsin vs (8) North Carolina,0,2,9,27.0,35,AL
+2020-21,Maryland,Big Ten,36,9,Midwest,3,Oklahoma,(9) Maryland vs (8) Oklahoma,0,3,9,35.0,36,AL
+2020-21,St. Bonaventure,Atlantic 10,37,10,East,0,Oregon,(10) St. Bonaventure vs (7) Oregon,0,0,10,23.0,37,AQ
+2020-21,Virginia Tech,ACC,38,10,West,1,UConn,(10) Virginia Tech vs (7) UConn,0,1,10,48.0,38,AL
+2020-21,VCU,Atlantic 10,39,10,South,2,Clemson,(10) VCU vs (7) Clemson,0,2,10,37.0,39,AL
+2020-21,Rutgers,Big Ten,40,10,Midwest,3,Florida,(10) Rutgers vs (7) Florida,0,3,10,38.0,40,AL
+2020-21,Syracuse,ACC,41,11,East,0,Southern California,(11) Syracuse vs (6) Southern California,0,0,11,40.0,41,AL
+2020-21,Utah St.,Mountain West,42,11,West,1,Texas Tech,(11) Utah St. vs (6) Texas Tech,0,1,11,39.0,42,AL
+2020-21,Michigan St.,Big Ten,43,11,South,2,BYU,(11) Michigan St. vs (6) BYU,0,2,11,70.0,43,AL
+2020-21,UCLA,Pac-12,44,11,Midwest,3,San Diego St.,(11) UCLA vs (6) San Diego St.,0,3,11,46.0,44,AL
+2020-21,Wichita St.,The American,45,12,East,0,Creighton,(12) Wichita St. vs (5) Creighton,0,0,12,72.0,45,AL
+2020-21,Oregon St.,Pac-12,46,12,West,1,Villanova,(12) Oregon St. vs (5) Villanova,0,1,12,91.0,46,AQ
+2020-21,Georgetown,Big East,47,12,South,2,Tennessee,(12) Georgetown vs (5) Tennessee,0,2,12,64.0,47,AQ
+2020-21,Drake,MVC,48,12,Midwest,3,Colorado,(12) Drake vs (5) Colorado,0,3,12,45.0,48,AL
+2020-21,Winthrop,Big South,49,13,East,0,Florida St.,(13) Winthrop vs (4) Florida St.,0,0,13,55.0,49,AQ
+2020-21,UC Santa Barbara,Big West,50,13,West,1,Purdue,(13) UC Santa Barbara vs (4) Purdue,0,1,13,54.0,51,AQ
+2020-21,Ohio,MAC,51,13,South,2,Oklahoma St.,(13) Ohio vs (4) Oklahoma St.,0,2,13,87.0,50,AQ
+2020-21,North Texas,CUSA,52,13,Midwest,3,Virginia,(13) North Texas vs (4) Virginia,0,3,13,59.0,52,AQ
+2020-21,Liberty,ASUN,53,14,East,0,Arkansas,(14) Liberty vs (3) Arkansas,0,0,14,86.0,53,AQ
+2020-21,UNC Greensboro,SoCon,54,14,West,1,West Virginia,(14) UNC Greensboro vs (3) West Virginia,0,1,14,84.0,54,AQ
+2020-21,Abilene Christian,Southland,55,14,South,2,Texas,(14) Abilene Christian vs (3) Texas,0,2,14,74.0,55,AQ
+2020-21,Morehead St.,OVC,56,14,Midwest,3,Kansas,(14) Morehead St. vs (3) Kansas,0,3,14,121.0,56,AQ
+2020-21,Colgate,Patriot,57,15,East,0,Alabama,(15) Colgate vs (2) Alabama,0,0,15,9.0,57,AQ
+2020-21,Eastern Wash.,Big Sky,58,15,West,1,Ohio St.,(15) Eastern Wash. vs (2) Ohio St.,0,1,15,114.0,58,AQ
+2020-21,Grand Canyon,WAC,59,15,South,2,Iowa,(15) Grand Canyon vs (2) Iowa,0,2,15,107.0,59,AQ
+2020-21,Cleveland St.,Horizon,60,15,Midwest,3,Houston,(15) Cleveland St. vs (2) Houston,0,3,15,160.0,60,AQ
+2020-21,Oral Roberts,Summit League,61,16,East,0,Gonzaga,(16) Oral Roberts vs (1) Gonzaga,0,0,16,158.0,61,AQ
+2020-21,Iona,MAAC,62,16,West,1,Baylor,(16) Iona vs (1) Baylor,0,1,16,138.0,62,AQ
+2020-21,Drexel,CAA,63,16,South,2,Illinois,(16) Drexel vs (1) Illinois,0,2,16,135.0,63,AQ
+2020-21,Hartford,America East,64,16,Midwest,3,Michigan,(16) Hartford vs (1) Michigan,0,3,16,162.0,64,AQ
+2020-21,Mount St. Mary's,NEC,65,17,East,0,Unknown,(17) Mount St. Mary's vs (0) Unknown,0,0,17,159.0,65,AQ
+2020-21,Texas Southern,SWAC,66,17,West,1,Unknown,(17) Texas Southern vs (0) Unknown,0,1,17,208.0,66,AQ
+2020-21,Norfolk St.,MEAC,67,17,South,2,Unknown,(17) Norfolk St. vs (0) Unknown,0,2,17,170.0,67,AQ
+2020-21,App State,Sun Belt,68,17,Midwest,3,Unknown,(17) App State vs (0) Unknown,0,3,17,210.0,68,AQ
+2021-22,Gonzaga,WCC,1,1,East,0,Jacksonville St.,(1) Gonzaga vs (16) Jacksonville St.,1,0,1,1.0,1,AQ
+2021-22,Arizona,Pac-12,2,1,West,1,Cal St. Fullerton,(1) Arizona vs (16) Cal St. Fullerton,1,1,1,2.0,2,AQ
+2021-22,Kansas,Big 12,3,1,South,2,Georgia St.,(1) Kansas vs (16) Georgia St.,1,2,1,6.0,3,AQ
+2021-22,Baylor,Big 12,4,1,Midwest,3,Norfolk St.,(1) Baylor vs (16) Norfolk St.,1,3,1,4.0,4,AL
+2021-22,Auburn,SEC,5,2,East,0,Colgate,(2) Auburn vs (15) Colgate,1,0,2,11.0,5,AL
+2021-22,Kentucky,SEC,6,2,West,1,Montana St.,(2) Kentucky vs (15) Montana St.,1,1,2,5.0,6,AL
+2021-22,Villanova,Big East,7,2,South,2,Delaware,(2) Villanova vs (15) Delaware,1,2,2,8.0,7,AQ
+2021-22,Duke,ACC,8,2,Midwest,3,Saint Peter's,(2) Duke vs (15) Saint Peter's,1,3,2,12.0,8,AL
+2021-22,Wisconsin,Big Ten,9,3,East,0,Vermont,(3) Wisconsin vs (14) Vermont,1,0,3,24.0,9,AL
+2021-22,Tennessee,SEC,10,3,West,1,Akron,(3) Tennessee vs (14) Akron,1,1,3,7.0,10,AQ
+2021-22,Purdue,Big Ten,11,3,South,2,Longwood,(3) Purdue vs (14) Longwood,1,2,3,13.0,11,AL
+2021-22,Texas Tech,Big 12,12,3,Midwest,3,Yale,(3) Texas Tech vs (14) Yale,1,3,3,9.0,12,AL
+2021-22,UCLA,Pac-12,13,4,East,0,Richmond,(4) UCLA vs (13) Richmond,1,0,4,10.0,13,AL
+2021-22,Illinois,Big Ten,14,4,West,1,New Mexico St.,(4) Illinois vs (13) New Mexico St.,1,1,4,15.0,14,AL
+2021-22,Providence,Big East,15,4,South,2,Chattanooga,(4) Providence vs (13) Chattanooga,1,2,4,32.0,15,AL
+2021-22,Arkansas,SEC,16,4,Midwest,3,South Dakota St.,(4) Arkansas vs (13) South Dakota St.,1,3,4,20.0,16,AL
+2021-22,UConn,Big East,17,5,East,0,Indiana,(5) UConn vs (12) Indiana,1,0,5,17.0,17,AL
+2021-22,Houston,The American,18,5,West,1,Virginia Tech,(5) Houston vs (12) Virginia Tech,1,1,5,3.0,18,AQ
+2021-22,Saint Mary's (CA),WCC,19,5,South,2,Notre Dame,(5) Saint Mary's (CA) vs (12) Notre Dame,1,2,5,19.0,19,AL
+2021-22,Iowa,Big Ten,20,5,Midwest,3,UAB,(5) Iowa vs (12) UAB,1,3,5,14.0,20,AQ
+2021-22,Alabama,SEC,21,6,East,0,Iowa St.,(6) Alabama vs (11) Iowa St.,1,0,6,30.0,21,AL
+2021-22,LSU,SEC,22,6,West,1,Michigan,(6) LSU vs (11) Michigan,1,1,6,18.0,22,AL
+2021-22,Texas,Big 12,23,6,South,2,Wyoming,(6) Texas vs (11) Wyoming,1,2,6,16.0,23,AL
+2021-22,Colorado St.,Mountain West,24,6,Midwest,3,Rutgers,(6) Colorado St. vs (11) Rutgers,1,3,6,28.0,24,AL
+2021-22,Southern California,Pac-12,25,7,East,0,San Francisco,(7) Southern California vs (10) San Francisco,1,0,7,35.0,26,AL
+2021-22,Murray St.,OVC,26,7,West,1,Miami (FL),(7) Murray St. vs (10) Miami (FL),1,1,7,21.0,25,AQ
+2021-22,Michigan St.,Big Ten,27,7,South,2,Loyola Chicago,(7) Michigan St. vs (10) Loyola Chicago,1,2,7,36.0,27,AL
+2021-22,Ohio St.,Big Ten,28,7,Midwest,3,Davidson,(7) Ohio St. vs (10) Davidson,1,3,7,26.0,28,AL
+2021-22,Boise St.,Mountain West,29,8,East,0,Creighton,(8) Boise St. vs (9) Creighton,1,0,8,29.0,29,AQ
+2021-22,North Carolina,ACC,30,8,West,1,TCU,(8) North Carolina vs (9) TCU,1,1,8,31.0,30,AL
+2021-22,San Diego St.,Mountain West,31,8,South,2,Marquette,(8) San Diego St. vs (9) Marquette,1,2,8,25.0,31,AL
+2021-22,Seton Hall,Big East,32,8,Midwest,3,Memphis,(8) Seton Hall vs (9) Memphis,1,3,8,37.0,32,AL
+2021-22,Creighton,Big East,33,9,East,0,Boise St.,(9) Creighton vs (8) Boise St.,0,0,9,55.0,33,AL
+2021-22,TCU,Big 12,34,9,West,1,North Carolina,(9) TCU vs (8) North Carolina,0,1,9,44.0,34,AL
+2021-22,Marquette,Big East,35,9,South,2,San Diego St.,(9) Marquette vs (8) San Diego St.,0,2,9,42.0,35,AL
+2021-22,Memphis,The American,36,9,Midwest,3,Seton Hall,(9) Memphis vs (8) Seton Hall,0,3,9,33.0,36,AL
+2021-22,San Francisco,WCC,37,10,East,0,Southern California,(10) San Francisco vs (7) Southern California,0,0,10,22.0,37,AL
+2021-22,Miami (FL),ACC,38,10,West,1,Murray St.,(10) Miami (FL) vs (7) Murray St.,0,1,10,62.0,38,AL
+2021-22,Loyola Chicago,MVC,39,10,South,2,Michigan St.,(10) Loyola Chicago vs (7) Michigan St.,0,2,10,23.0,39,AQ
+2021-22,Davidson,Atlantic 10,40,10,Midwest,3,Ohio St.,(10) Davidson vs (7) Ohio St.,0,3,10,41.0,40,AL
+2021-22,Iowa St.,Big 12,41,11,East,0,Alabama,(11) Iowa St. vs (6) Alabama,0,0,11,49.0,41,AL
+2021-22,Michigan,Big Ten,42,11,West,1,LSU,(11) Michigan vs (6) LSU,0,1,11,34.0,42,AL
+2021-22,Wyoming,Mountain West,43,11,South,2,Texas,(11) Wyoming vs (6) Texas,0,2,11,50.0,43,AL
+2021-22,Rutgers,Big Ten,44,11,Midwest,3,Colorado St.,(11) Rutgers vs (6) Colorado St.,0,3,11,77.0,44,AL
+2021-22,Indiana,Big Ten,45,12,East,0,UConn,(12) Indiana vs (5) UConn,0,0,12,38.0,45,AL
+2021-22,Virginia Tech,ACC,46,12,West,1,Houston,(12) Virginia Tech vs (5) Houston,0,1,12,27.0,46,AQ
+2021-22,Notre Dame,ACC,47,12,South,2,Saint Mary's (CA),(12) Notre Dame vs (5) Saint Mary's (CA),0,2,12,53.0,47,AL
+2021-22,UAB,CUSA,48,12,Midwest,3,Iowa,(12) UAB vs (5) Iowa,0,3,12,46.0,48,AQ
+2021-22,Richmond,Atlantic 10,49,13,East,0,UCLA,(13) Richmond vs (4) UCLA,0,0,13,81.0,49,AQ
+2021-22,New Mexico St.,WAC,50,13,West,1,Illinois,(13) New Mexico St. vs (4) Illinois,0,1,13,79.0,50,AQ
+2021-22,Chattanooga,SoCon,51,13,South,2,Providence,(13) Chattanooga vs (4) Providence,0,2,13,63.0,51,AQ
+2021-22,South Dakota St.,Summit League,52,13,Midwest,3,Arkansas,(13) South Dakota St. vs (4) Arkansas,0,3,13,65.0,52,AQ
+2021-22,Vermont,America East,53,14,East,0,Wisconsin,(14) Vermont vs (3) Wisconsin,0,0,14,52.0,53,AQ
+2021-22,Akron,MAC,54,14,West,1,Tennessee,(14) Akron vs (3) Tennessee,0,1,14,127.0,54,AQ
+2021-22,Longwood,Big South,55,14,South,2,Purdue,(14) Longwood vs (3) Purdue,0,2,14,125.0,55,AQ
+2021-22,Yale,Ivy League,56,14,Midwest,3,Texas Tech,(14) Yale vs (3) Texas Tech,0,3,14,142.0,56,AQ
+2021-22,Colgate,Patriot,57,15,East,0,Auburn,(15) Colgate vs (2) Auburn,0,0,15,128.0,57,AQ
+2021-22,Montana St.,Big Sky,58,15,West,1,Kentucky,(15) Montana St. vs (2) Kentucky,0,1,15,120.0,58,AQ
+2021-22,Delaware,CAA,59,15,South,2,Villanova,(15) Delaware vs (2) Villanova,0,2,15,137.0,59,AQ
+2021-22,Saint Peter's,MAAC,60,15,Midwest,3,Duke,(15) Saint Peter's vs (2) Duke,0,3,15,124.0,60,AQ
+2021-22,Jacksonville St.,ASUN,61,16,East,0,Gonzaga,(16) Jacksonville St. vs (1) Gonzaga,0,0,16,143.0,61,AQ
+2021-22,Cal St. Fullerton,Big West,62,16,West,1,Arizona,(16) Cal St. Fullerton vs (1) Arizona,0,1,16,153.0,62,AQ
+2021-22,Georgia St.,Sun Belt,63,16,South,2,Kansas,(16) Georgia St. vs (1) Kansas,0,2,16,159.0,63,AQ
+2021-22,Norfolk St.,MEAC,64,16,Midwest,3,Baylor,(16) Norfolk St. vs (1) Baylor,0,3,16,156.0,64,AQ
+2021-22,Wright St.,Horizon,65,17,East,0,Unknown,(17) Wright St. vs (0) Unknown,0,0,17,191.0,65,AQ
+2021-22,Bryant,NEC,66,17,West,1,Unknown,(17) Bryant vs (0) Unknown,0,1,17,200.0,66,AQ
+2021-22,Texas Southern,SWAC,67,17,South,2,Unknown,(17) Texas Southern vs (0) Unknown,0,2,17,197.0,67,AQ
+2021-22,A&M-Corpus Christi,Southland,68,17,Midwest,3,Unknown,(17) A&M-Corpus Christi vs (0) Unknown,0,3,17,241.0,68,AQ
+2022-23,Alabama,SEC,1,1,East,0,Princeton,(1) Alabama vs (16) Princeton,1,0,1,2.0,1,AQ
+2022-23,Houston,The American,2,1,West,1,UNC Asheville,(1) Houston vs (16) UNC Asheville,1,1,1,1.0,2,AL
+2022-23,Kansas,Big 12,3,1,South,2,Northern Ky.,(1) Kansas vs (16) Northern Ky.,1,2,1,9.0,3,AL
+2022-23,Purdue,Big Ten,4,1,Midwest,3,Howard,(1) Purdue vs (16) Howard,1,3,1,5.0,4,AQ
+2022-23,UCLA,Pac-12,5,2,East,0,Grand Canyon,(2) UCLA vs (15) Grand Canyon,1,0,2,3.0,5,AL
+2022-23,Texas,Big 12,6,2,West,1,Montana St.,(2) Texas vs (15) Montana St.,1,1,2,7.0,6,AQ
+2022-23,Arizona,Pac-12,7,2,South,2,Vermont,(2) Arizona vs (15) Vermont,1,2,2,10.0,7,AQ
+2022-23,Marquette,Big East,8,2,Midwest,3,Colgate,(2) Marquette vs (15) Colgate,1,3,2,12.0,8,AQ
+2022-23,Baylor,Big 12,9,3,East,0,Furman,(3) Baylor vs (14) Furman,1,0,3,15.0,9,AL
+2022-23,Gonzaga,WCC,10,3,West,1,Louisiana,(3) Gonzaga vs (14) Louisiana,1,1,3,6.0,10,AQ
+2022-23,Kansas St.,Big 12,11,3,South,2,Kennesaw St.,(3) Kansas St. vs (14) Kennesaw St.,1,2,3,24.0,11,AL
+2022-23,Xavier,Big East,12,3,Midwest,3,UC Santa Barbara,(3) Xavier vs (14) UC Santa Barbara,1,3,3,22.0,12,AL
+2022-23,UConn,Big East,13,4,East,0,Drake,(4) UConn vs (13) Drake,1,0,4,8.0,13,AL
+2022-23,Tennessee,SEC,14,4,West,1,VCU,(4) Tennessee vs (13) VCU,1,1,4,4.0,14,AL
+2022-23,Indiana,Big Ten,15,4,South,2,Kent St.,(4) Indiana vs (13) Kent St.,1,2,4,30.0,15,AL
+2022-23,Virginia,ACC,16,4,Midwest,3,Iona,(4) Virginia vs (13) Iona,1,3,4,27.0,16,AL
+2022-23,San Diego St.,Mountain West,17,5,East,0,Arizona St.,(5) San Diego St. vs (12) Arizona St.,1,0,5,14.0,17,AQ
+2022-23,Duke,ACC,18,5,West,1,Nevada,(5) Duke vs (12) Nevada,1,1,5,16.0,18,AQ
+2022-23,Saint Mary's (CA),WCC,19,5,South,2,Col. of Charleston,(5) Saint Mary's (CA) vs (12) Col. of Charleston,1,2,5,11.0,19,AL
+2022-23,Miami (FL),ACC,20,5,Midwest,3,Oral Roberts,(5) Miami (FL) vs (12) Oral Roberts,1,3,5,35.0,20,AL
+2022-23,Iowa St.,Big 12,21,6,East,0,NC State,(6) Iowa St. vs (11) NC State,1,0,6,20.0,21,AL
+2022-23,Creighton,Big East,22,6,West,1,Providence,(6) Creighton vs (11) Providence,1,1,6,17.0,22,AL
+2022-23,Kentucky,SEC,23,6,South,2,Mississippi St.,(6) Kentucky vs (11) Mississippi St.,1,2,6,26.0,23,AL
+2022-23,TCU,Big 12,24,6,Midwest,3,Pittsburgh,(6) TCU vs (11) Pittsburgh,1,3,6,28.0,24,AL
+2022-23,Texas A&M,SEC,25,7,East,0,Boise St.,(7) Texas A&M vs (10) Boise St.,1,0,7,19.0,25,AL
+2022-23,Michigan St.,Big Ten,26,7,West,1,Penn St.,(7) Michigan St. vs (10) Penn St.,1,1,7,33.0,26,AL
+2022-23,Missouri,SEC,27,7,South,2,Southern California,(7) Missouri vs (10) Southern California,1,2,7,42.0,27,AL
+2022-23,Northwestern,Big Ten,28,7,Midwest,3,Utah St.,(7) Northwestern vs (10) Utah St.,1,3,7,41.0,28,AL
+2022-23,Memphis,The American,29,8,East,0,Fla. Atlantic,(8) Memphis vs (9) Fla. Atlantic,1,0,8,23.0,29,AQ
+2022-23,Arkansas,SEC,30,8,West,1,West Virginia,(8) Arkansas vs (9) West Virginia,1,1,8,21.0,30,AL
+2022-23,Maryland,Big Ten,31,8,South,2,Auburn,(8) Maryland vs (9) Auburn,1,2,8,31.0,31,AL
+2022-23,Iowa,Big Ten,32,8,Midwest,3,Illinois,(8) Iowa vs (9) Illinois,1,3,8,39.0,32,AL
+2022-23,Fla. Atlantic,CUSA,33,9,East,0,Memphis,(9) Fla. Atlantic vs (8) Memphis,0,0,9,13.0,33,AQ
+2022-23,West Virginia,Big 12,34,9,West,1,Arkansas,(9) West Virginia vs (8) Arkansas,0,1,9,25.0,34,AL
+2022-23,Auburn,SEC,35,9,South,2,Maryland,(9) Auburn vs (8) Maryland,0,2,9,32.0,35,AL
+2022-23,Illinois,Big Ten,36,9,Midwest,3,Iowa,(9) Illinois vs (8) Iowa,0,3,9,34.0,36,AL
+2022-23,Boise St.,Mountain West,37,10,East,0,Texas A&M,(10) Boise St. vs (7) Texas A&M,0,0,10,29.0,37,AL
+2022-23,Penn St.,Big Ten,38,10,West,1,Michigan St.,(10) Penn St. vs (7) Michigan St.,0,1,10,48.0,38,AL
+2022-23,Southern California,Pac-12,39,10,South,2,Missouri,(10) Southern California vs (7) Missouri,0,2,10,50.0,39,AL
+2022-23,Utah St.,Mountain West,40,10,Midwest,3,Northwestern,(10) Utah St. vs (7) Northwestern,0,3,10,18.0,40,AL
+2022-23,NC State,ACC,41,11,East,0,Iowa St.,(11) NC State vs (6) Iowa St.,0,0,11,45.0,41,AL
+2022-23,Providence,Big East,42,11,West,1,Creighton,(11) Providence vs (6) Creighton,0,1,11,56.0,42,AL
+2022-23,Mississippi St.,SEC,43,11,South,2,Kentucky,(11) Mississippi St. vs (6) Kentucky,0,2,11,49.0,43,AL
+2022-23,Pittsburgh,ACC,44,11,Midwest,3,TCU,(11) Pittsburgh vs (6) TCU,0,3,11,67.0,44,AL
+2022-23,Arizona St.,Pac-12,45,12,East,0,San Diego St.,(12) Arizona St. vs (5) San Diego St.,0,0,12,66.0,45,AL
+2022-23,Nevada,Mountain West,46,12,West,1,Duke,(12) Nevada vs (5) Duke,0,1,12,37.0,46,AL
+2022-23,Col. of Charleston,CAA,47,12,South,2,Saint Mary's (CA),(12) Col. of Charleston vs (5) Saint Mary's (CA),0,2,12,51.0,47,AQ
+2022-23,Oral Roberts,Summit League,48,12,Midwest,3,Miami (FL),(12) Oral Roberts vs (5) Miami (FL),0,3,12,36.0,48,AQ
+2022-23,Drake,MVC,49,13,East,0,UConn,(13) Drake vs (4) UConn,0,0,13,55.0,49,AQ
+2022-23,VCU,Atlantic 10,50,13,West,1,Tennessee,(13) VCU vs (4) Tennessee,0,1,13,53.0,50,AQ
+2022-23,Kent St.,MAC,51,13,South,2,Indiana,(13) Kent St. vs (4) Indiana,0,2,13,59.0,51,AQ
+2022-23,Iona,MAAC,52,13,Midwest,3,Virginia,(13) Iona vs (4) Virginia,0,3,13,58.0,52,AQ
+2022-23,Furman,SoCon,53,14,East,0,Baylor,(14) Furman vs (3) Baylor,0,0,14,88.0,53,AQ
+2022-23,Louisiana,Sun Belt,54,14,West,1,Gonzaga,(14) Louisiana vs (3) Gonzaga,0,1,14,89.0,54,AQ
+2022-23,Kennesaw St.,ASUN,55,14,South,2,Kansas St.,(14) Kennesaw St. vs (3) Kansas St.,0,2,14,115.0,55,AQ
+2022-23,UC Santa Barbara,Big West,56,14,Midwest,3,Xavier,(14) UC Santa Barbara vs (3) Xavier,0,3,14,100.0,56,AQ
+2022-23,Grand Canyon,WAC,57,15,East,0,UCLA,(15) Grand Canyon vs (2) UCLA,0,0,15,104.0,57,AQ
+2022-23,Montana St.,Big Sky,58,15,West,1,Texas,(15) Montana St. vs (2) Texas,0,1,15,103.0,58,AQ
+2022-23,Vermont,America East,59,15,South,2,Arizona,(15) Vermont vs (2) Arizona,0,2,15,109.0,59,AQ
+2022-23,Colgate,Patriot,60,15,Midwest,3,Marquette,(15) Colgate vs (2) Marquette,0,3,15,101.0,60,AQ
+2022-23,Princeton,Ivy League,61,16,East,0,Alabama,(16) Princeton vs (1) Alabama,0,0,16,111.0,61,AQ
+2022-23,UNC Asheville,Big South,62,16,West,1,Houston,(16) UNC Asheville vs (1) Houston,0,1,16,140.0,62,AQ
+2022-23,Northern Ky.,Horizon,63,16,South,2,Kansas,(16) Northern Ky. vs (1) Kansas,0,2,16,154.0,63,AQ
+2022-23,Howard,MEAC,64,16,Midwest,3,Purdue,(16) Howard vs (1) Purdue,0,3,16,214.0,64,AQ
+2022-23,A&M-Corpus Christi,Southland,65,17,East,0,Unknown,(17) A&M-Corpus Christi vs (0) Unknown,0,0,17,175.0,65,AQ
+2022-23,Texas Southern,SWAC,66,17,West,1,Unknown,(17) Texas Southern vs (0) Unknown,0,1,17,294.0,66,AQ
+2022-23,Southeast Mo. St.,OVC,67,17,South,2,Unknown,(17) Southeast Mo. St. vs (0) Unknown,0,2,17,242.0,67,AQ
+2022-23,FDU,NEC,68,17,Midwest,3,Unknown,(17) FDU vs (0) Unknown,0,3,17,301.0,68,AQ
+2023-24,Uconn,Big East,1,1,East,0,South Dakota St.,(1) Uconn vs (16) South Dakota St.,1,0,1,2.0,1,AQ
+2023-24,Houston,Big 12,2,1,West,1,Saint Peter's,(1) Houston vs (16) Saint Peter's,1,1,1,1.0,2,AL
+2023-24,Purdue,Big Ten,3,1,South,2,Longwood,(1) Purdue vs (16) Longwood,1,2,1,3.0,3,AL
+2023-24,North Carolina,ACC,4,1,Midwest,3,Stetson,(1) North Carolina vs (16) Stetson,1,3,1,8.0,4,AL
+2023-24,Tennessee,SEC,5,2,East,0,Morehead St.,(2) Tennessee vs (15) Morehead St.,1,0,2,7.0,5,AL
+2023-24,Arizona,Pac-12,6,2,West,1,Colgate,(2) Arizona vs (15) Colgate,1,1,2,4.0,6,AL
+2023-24,Marquette,Big East,7,2,South,2,Long Beach St.,(2) Marquette vs (15) Long Beach St.,1,2,2,14.0,7,AL
+2023-24,Iowa St.,Big 12,8,2,Midwest,3,Western Ky.,(2) Iowa St. vs (15) Western Ky.,1,3,2,6.0,8,AQ
+2023-24,Baylor,Big 12,9,3,East,0,Samford,(3) Baylor vs (14) Samford,1,0,3,15.0,9,AL
+2023-24,Creighton,Big East,10,3,West,1,Col. of Charleston,(3) Creighton vs (14) Col. of Charleston,1,1,3,11.0,10,AL
+2023-24,Kentucky,SEC,11,3,South,2,Oakland,(3) Kentucky vs (14) Oakland,1,2,3,18.0,11,AL
+2023-24,Illinois,Big Ten,12,3,Midwest,3,Akron,(3) Illinois vs (14) Akron,1,3,3,13.0,12,AQ
+2023-24,Duke,ACC,13,4,East,0,McNeese,(4) Duke vs (13) McNeese,1,0,4,10.0,13,AL
+2023-24,Kansas,Big 12,14,4,West,1,UAB,(4) Kansas vs (13) UAB,1,1,4,19.0,14,AL
+2023-24,Auburn,SEC,15,4,South,2,Vermont,(4) Auburn vs (13) Vermont,1,2,4,5.0,15,AQ
+2023-24,Alabama,SEC,16,4,Midwest,3,Yale,(4) Alabama vs (13) Yale,1,3,4,9.0,16,AL
+2023-24,BYU,Big 12,17,5,East,0,NC State,(5) BYU vs (12) NC State,1,0,5,12.0,17,AL
+2023-24,San Diego St.,Mountain West,18,5,West,1,Duquesne,(5) San Diego St. vs (12) Duquesne,1,1,5,20.0,18,AL
+2023-24,Wisconsin,Big Ten,19,5,South,2,Grand Canyon,(5) Wisconsin vs (12) Grand Canyon,1,2,5,21.0,19,AL
+2023-24,Saint Mary's (CA),WCC,20,5,Midwest,3,James Madison,(5) Saint Mary's (CA) vs (12) James Madison,1,3,5,16.0,20,AQ
+2023-24,Gonzaga,WCC,21,6,East,0,Virginia,(6) Gonzaga vs (11) Virginia,1,0,6,17.0,21,AL
+2023-24,Clemson,ACC,22,6,West,1,New Mexico,(6) Clemson vs (11) New Mexico,1,1,6,35.0,24,AL
+2023-24,Texas Tech,Big 12,23,6,South,2,Oregon,(6) Texas Tech vs (11) Oregon,1,2,6,27.0,23,AL
+2023-24,South Carolina,SEC,24,6,Midwest,3,Colorado St.,(6) South Carolina vs (11) Colorado St.,1,3,6,51.0,22,AL
+2023-24,Florida,SEC,25,7,East,0,Nevada,(7) Florida vs (10) Nevada,1,0,7,29.0,25,AL
+2023-24,Washington St.,Pac-12,26,7,West,1,Boise St.,(7) Washington St. vs (10) Boise St.,1,1,7,44.0,26,AL
+2023-24,Texas,Big 12,27,7,South,2,Colorado,(7) Texas vs (10) Colorado,1,2,7,30.0,27,AL
+2023-24,Dayton,Atlantic 10,28,7,Midwest,3,Drake,(7) Dayton vs (10) Drake,1,3,7,23.0,28,AL
+2023-24,Nebraska,Big Ten,29,8,East,0,Michigan St.,(8) Nebraska vs (9) Michigan St.,1,0,8,33.0,29,AL
+2023-24,Utah St.,Mountain West,30,8,West,1,Texas A&M,(8) Utah St. vs (9) Texas A&M,1,1,8,38.0,30,AL
+2023-24,Fla. Atlantic,The American,31,8,South,2,TCU,(8) Fla. Atlantic vs (9) TCU,1,2,8,39.0,31,AL
+2023-24,Mississippi St.,SEC,32,8,Midwest,3,Northwestern,(8) Mississippi St. vs (9) Northwestern,1,3,8,31.0,32,AL
+2023-24,Michigan St.,Big Ten,33,9,East,0,Nebraska,(9) Michigan St. vs (8) Nebraska,0,0,9,24.0,33,AL
+2023-24,Texas A&M,SEC,34,9,West,1,Utah St.,(9) Texas A&M vs (8) Utah St.,0,1,9,45.0,34,AL
+2023-24,TCU,Big 12,35,9,South,2,Fla. Atlantic,(9) TCU vs (8) Fla. Atlantic,0,2,9,42.0,35,AL
+2023-24,Northwestern,Big Ten,36,9,Midwest,3,Mississippi St.,(9) Northwestern vs (8) Mississippi St.,0,3,9,53.0,36,AL
+2023-24,Nevada,Mountain West,37,10,East,0,Florida,(10) Nevada vs (7) Florida,0,0,10,34.0,37,AL
+2023-24,Boise St.,Mountain West,38,10,West,1,Washington St.,(10) Boise St. vs (7) Washington St.,0,1,10,26.0,38,AL
+2023-24,Colorado,Pac-12,39,10,South,2,Texas,(10) Colorado vs (7) Texas,0,2,10,25.0,39,AL
+2023-24,Drake,MVC,40,10,Midwest,3,Dayton,(10) Drake vs (7) Dayton,0,3,10,47.0,40,AQ
+2023-24,Virginia,ACC,41,11,East,0,Gonzaga,(11) Virginia vs (6) Gonzaga,0,0,11,54.0,41,AL
+2023-24,New Mexico,Mountain West,42,11,West,1,Clemson,(11) New Mexico vs (6) Clemson,0,1,11,22.0,42,AQ
+2023-24,Oregon,Pac-12,43,11,South,2,Texas Tech,(11) Oregon vs (6) Texas Tech,0,2,11,59.0,43,AQ
+2023-24,Colorado St.,Mountain West,44,11,Midwest,3,South Carolina,(11) Colorado St. vs (6) South Carolina,0,3,11,36.0,44,AL
+2023-24,NC State,ACC,45,12,East,0,BYU,(12) NC State vs (5) BYU,0,0,12,63.0,45,AQ
+2023-24,Duquesne,Atlantic 10,46,12,West,1,San Diego St.,(12) Duquesne vs (5) San Diego St.,0,1,12,80.0,46,AQ
+2023-24,Grand Canyon,WAC,47,12,South,2,Wisconsin,(12) Grand Canyon vs (5) Wisconsin,0,2,12,50.0,47,AQ
+2023-24,James Madison,Sun Belt,48,12,Midwest,3,Saint Mary's (CA),(12) James Madison vs (5) Saint Mary's (CA),0,3,12,52.0,48,AQ
+2023-24,McNeese,Southland,49,13,East,0,Duke,(13) McNeese vs (4) Duke,0,0,13,56.0,49,AQ
+2023-24,UAB,The American,50,13,West,1,Kansas,(13) UAB vs (4) Kansas,0,1,13,104.0,50,AQ
+2023-24,Vermont,America East,51,13,South,2,Auburn,(13) Vermont vs (4) Auburn,0,2,13,102.0,51,AQ
+2023-24,Yale,Ivy League,52,13,Midwest,3,Alabama,(13) Yale vs (4) Alabama,0,3,13,83.0,52,AQ
+2023-24,Samford,SoCon,53,14,East,0,Baylor,(14) Samford vs (3) Baylor,0,0,14,74.0,53,AQ
+2023-24,Col. of Charleston,CAA,54,14,West,1,Creighton,(14) Col. of Charleston vs (3) Creighton,0,1,14,97.0,54,AQ
+2023-24,Oakland,Horizon,55,14,South,2,Kentucky,(14) Oakland vs (3) Kentucky,0,2,14,126.0,55,AQ
+2023-24,Akron,MAC,56,14,Midwest,3,Illinois,(14) Akron vs (3) Illinois,0,3,14,108.0,56,AQ
+2023-24,Morehead St.,OVC,57,15,East,0,Tennessee,(15) Morehead St. vs (2) Tennessee,0,0,15,106.0,57,AQ
+2023-24,Colgate,Patriot,58,15,West,1,Arizona,(15) Colgate vs (2) Arizona,0,1,15,125.0,58,AQ
+2023-24,Long Beach St.,Big West,59,15,South,2,Marquette,(15) Long Beach St. vs (2) Marquette,0,2,15,170.0,59,AQ
+2023-24,Western Ky.,CUSA,60,15,Midwest,3,Iowa St.,(15) Western Ky. vs (2) Iowa St.,0,3,15,136.0,60,AQ
+2023-24,South Dakota St.,Summit League,61,16,East,0,Uconn,(16) South Dakota St. vs (1) Uconn,0,0,16,135.0,61,AQ
+2023-24,Saint Peter's,MAAC,62,16,West,1,Houston,(16) Saint Peter's vs (1) Houston,0,1,16,188.0,62,AQ
+2023-24,Longwood,Big South,63,16,South,2,Purdue,(16) Longwood vs (1) Purdue,0,2,16,162.0,63,AQ
+2023-24,Stetson,ASUN,64,16,Midwest,3,North Carolina,(16) Stetson vs (1) North Carolina,0,3,16,209.0,64,AQ
+2023-24,Montana St.,Big Sky,65,17,East,0,Unknown,(17) Montana St. vs (0) Unknown,0,0,17,208.0,65,AQ
+2023-24,Grambling,SWAC,66,17,West,1,Unknown,(17) Grambling vs (0) Unknown,0,1,17,279.0,66,AQ
+2023-24,Howard,MEAC,67,17,South,2,Unknown,(17) Howard vs (0) Unknown,0,2,17,273.0,67,AQ
+2023-24,Wagner,NEC,68,17,Midwest,3,Unknown,(17) Wagner vs (0) Unknown,0,3,17,290.0,68,AQ
+2024-25,Auburn,SEC,1,1,East,0,Omaha,(1) Auburn vs (16) Omaha,1,0,1,2.0,1,AL
+2024-25,Duke,ACC,2,1,West,1,Bryant,(1) Duke vs (16) Bryant,1,1,1,1.0,2,AQ
+2024-25,Houston,Big 12,3,1,South,2,Norfolk St.,(1) Houston vs (16) Norfolk St.,1,2,1,3.0,3,AQ
+2024-25,Florida,SEC,4,1,Midwest,3,SIUE,(1) Florida vs (16) SIUE,1,3,1,4.0,4,AQ
+2024-25,Tennessee,SEC,5,2,East,0,UNCW,(2) Tennessee vs (15) UNCW,1,0,2,5.0,5,AL
+2024-25,Alabama,SEC,6,2,West,1,Montana,(2) Alabama vs (15) Montana,1,1,2,6.0,6,AL
+2024-25,Michigan St.,Big Ten,7,2,South,2,Robert Morris,(2) Michigan St. vs (15) Robert Morris,1,2,2,11.0,7,AL
+2024-25,St. John's (NY),Big East,8,2,Midwest,3,Wofford,(2) St. John's (NY) vs (15) Wofford,1,3,2,13.0,8,AQ
+2024-25,Texas Tech,Big 12,9,3,East,0,Akron,(3) Texas Tech vs (14) Akron,1,0,3,7.0,9,AL
+2024-25,Iowa St.,Big 12,10,3,West,1,Grand Canyon,(3) Iowa St. vs (14) Grand Canyon,1,1,3,9.0,10,AL
+2024-25,Kentucky,SEC,11,3,South,2,Lipscomb,(3) Kentucky vs (14) Lipscomb,1,2,3,14.0,12,AL
+2024-25,Wisconsin,Big Ten,12,3,Midwest,3,Troy,(3) Wisconsin vs (14) Troy,1,3,3,15.0,11,AL
+2024-25,Texas A&M,SEC,13,4,East,0,McNeese,(4) Texas A&M vs (13) McNeese,1,0,4,18.0,13,AL
+2024-25,Purdue,Big Ten,14,4,West,1,Liberty,(4) Purdue vs (13) Liberty,1,1,4,19.0,14,AL
+2024-25,Maryland,Big Ten,15,4,South,2,Yale,(4) Maryland vs (13) Yale,1,2,4,10.0,15,AL
+2024-25,Arizona,Big 12,16,4,Midwest,3,High Point,(4) Arizona vs (13) High Point,1,3,4,12.0,16,AL
+2024-25,Michigan,Big Ten,17,5,East,0,VCU,(5) Michigan vs (12) VCU,1,0,5,23.0,17,AQ
+2024-25,Clemson,ACC,18,5,West,1,North Carolina,(5) Clemson vs (12) North Carolina,1,1,5,22.0,18,AL
+2024-25,Oregon,Big Ten,19,5,South,2,UC San Diego,(5) Oregon vs (12) UC San Diego,1,2,5,29.0,19,AL
+2024-25,Memphis,The American,20,5,Midwest,3,Colorado St.,(5) Memphis vs (12) Colorado St.,1,3,5,49.0,20,AQ
+2024-25,BYU,Big 12,21,6,East,0,Texas,(6) BYU vs (11) Texas,1,0,6,25.0,21,AL
+2024-25,Illinois,Big Ten,22,6,West,1,Xavier,(6) Illinois vs (11) Xavier,1,1,6,17.0,22,AL
+2024-25,Missouri,SEC,23,6,South,2,San Diego St.,(6) Missouri vs (11) San Diego St.,1,2,6,16.0,23,AL
+2024-25,Ole Miss,SEC,24,6,Midwest,3,Drake,(6) Ole Miss vs (11) Drake,1,3,6,28.0,24,AL
+2024-25,UCLA,Big Ten,25,7,East,0,Arkansas,(7) UCLA vs (10) Arkansas,1,0,7,27.0,25,AL
+2024-25,Marquette,Big East,26,7,West,1,New Mexico,(7) Marquette vs (10) New Mexico,1,1,7,26.0,26,AL
+2024-25,Saint Mary's (CA),WCC,27,7,South,2,Vanderbilt,(7) Saint Mary's (CA) vs (10) Vanderbilt,1,2,7,21.0,27,AL
+2024-25,Kansas,Big 12,28,7,Midwest,3,Utah St.,(7) Kansas vs (10) Utah St.,1,3,7,20.0,28,AL
+2024-25,Louisville,ACC,29,8,East,0,Creighton,(8) Louisville vs (9) Creighton,1,0,8,24.0,29,AL
+2024-25,Gonzaga,WCC,30,8,West,1,Georgia,(8) Gonzaga vs (9) Georgia,1,1,8,8.0,30,AQ
+2024-25,UConn,Big East,31,8,South,2,Baylor,(8) UConn vs (9) Baylor,1,2,8,32.0,31,AL
+2024-25,Mississippi St.,SEC,32,8,Midwest,3,Oklahoma,(8) Mississippi St. vs (9) Oklahoma,1,3,8,34.0,32,AL
+2024-25,Creighton,Big East,33,9,East,0,Louisville,(9) Creighton vs (8) Louisville,0,0,9,38.0,33,AL
+2024-25,Georgia,SEC,34,9,West,1,Gonzaga,(9) Georgia vs (8) Gonzaga,0,1,9,33.0,34,AL
+2024-25,Baylor,Big 12,35,9,South,2,UConn,(9) Baylor vs (8) UConn,0,2,9,30.0,35,AL
+2024-25,Oklahoma,SEC,36,9,Midwest,3,Mississippi St.,(9) Oklahoma vs (8) Mississippi St.,0,3,9,43.0,36,AL
+2024-25,Arkansas,SEC,37,10,East,0,UCLA,(10) Arkansas vs (7) UCLA,0,0,10,40.0,37,AL
+2024-25,New Mexico,Mountain West,38,10,West,1,Marquette,(10) New Mexico vs (7) Marquette,0,1,10,42.0,38,AL
+2024-25,Vanderbilt,SEC,39,10,South,2,Saint Mary's (CA),(10) Vanderbilt vs (7) Saint Mary's (CA),0,2,10,48.0,39,AL
+2024-25,Utah St.,Mountain West,40,10,Midwest,3,Kansas,(10) Utah St. vs (7) Kansas,0,3,10,37.0,40,AL
+2024-25,Texas,SEC,41,11,East,0,BYU,(11) Texas vs (6) BYU,0,0,11,39.0,41,AL
+2024-25,Xavier,Big East,42,11,West,1,Illinois,(11) Xavier vs (6) Illinois,0,1,11,45.0,42,AL
+2024-25,San Diego St.,Mountain West,43,11,South,2,Missouri,(11) San Diego St. vs (6) Missouri,0,2,11,52.0,43,AL
+2024-25,Drake,MVC,44,11,Midwest,3,Ole Miss,(11) Drake vs (6) Ole Miss,0,3,11,56.0,44,AQ
+2024-25,VCU,Atlantic 10,45,12,East,0,Michigan,(12) VCU vs (5) Michigan,0,0,12,31.0,45,AQ
+2024-25,North Carolina,ACC,46,12,West,1,Clemson,(12) North Carolina vs (5) Clemson,0,1,12,36.0,46,AL
+2024-25,UC San Diego,Big West,47,12,South,2,Oregon,(12) UC San Diego vs (5) Oregon,0,2,12,35.0,47,AQ
+2024-25,Colorado St.,Mountain West,48,12,Midwest,3,Memphis,(12) Colorado St. vs (5) Memphis,0,3,12,47.0,48,AQ
+2024-25,McNeese,Southland,49,13,East,0,Texas A&M,(13) McNeese vs (4) Texas A&M,0,0,13,58.0,49,AQ
+2024-25,Liberty,CUSA,50,13,West,1,Purdue,(13) Liberty vs (4) Purdue,0,1,13,60.0,50,AQ
+2024-25,Yale,Ivy League,51,13,South,2,Maryland,(13) Yale vs (4) Maryland,0,2,13,72.0,51,AQ
+2024-25,High Point,Big South,52,13,Midwest,3,Arizona,(13) High Point vs (4) Arizona,0,3,13,82.0,52,AQ
+2024-25,Akron,MAC,53,14,East,0,Texas Tech,(14) Akron vs (3) Texas Tech,0,0,14,91.0,53,AQ
+2024-25,Grand Canyon,WAC,54,14,West,1,Iowa St.,(14) Grand Canyon vs (3) Iowa St.,0,1,14,92.0,54,AQ
+2024-25,Lipscomb,ASUN,55,14,South,2,Kentucky,(14) Lipscomb vs (3) Kentucky,0,2,14,84.0,55,AQ
+2024-25,Troy,Sun Belt,56,14,Midwest,3,Wisconsin,(14) Troy vs (3) Wisconsin,0,3,14,99.0,56,AQ
+2024-25,UNCW,CAA,57,15,East,0,Tennessee,(15) UNCW vs (2) Tennessee,0,0,15,102.0,57,AQ
+2024-25,Montana,Big Sky,58,15,West,1,Alabama,(15) Montana vs (2) Alabama,0,1,15,143.0,58,AQ
+2024-25,Robert Morris,Horizon,59,15,South,2,Michigan St.,(15) Robert Morris vs (2) Michigan St.,0,2,15,139.0,59,AQ
+2024-25,Wofford,SoCon,60,15,Midwest,3,St. John's (NY),(15) Wofford vs (2) St. John's (NY),0,3,15,131.0,60,AQ
+2024-25,Omaha,Summit League,61,16,East,0,Auburn,(16) Omaha vs (1) Auburn,0,0,16,160.0,61,AQ
+2024-25,Bryant,America East,62,16,West,1,Duke,(16) Bryant vs (1) Duke,0,1,16,141.0,62,AQ
+2024-25,Norfolk St.,MEAC,63,16,South,2,Houston,(16) Norfolk St. vs (1) Houston,0,2,16,183.0,63,AQ
+2024-25,SIUE,OVC,64,16,Midwest,3,Florida,(16) SIUE vs (1) Florida,0,3,16,216.0,64,AQ
+2024-25,American,Patriot,65,17,East,0,Unknown,(17) American vs (0) Unknown,0,0,17,226.0,65,AQ
+2024-25,Mount St. Mary's,MAAC,66,17,West,1,Unknown,(17) Mount St. Mary's vs (0) Unknown,0,1,17,236.0,66,AQ
+2024-25,Alabama St.,SWAC,67,17,South,2,Unknown,(17) Alabama St. vs (0) Unknown,0,2,17,274.0,67,AQ
+2024-25,Saint Francis,NEC,68,17,Midwest,3,Unknown,(17) Saint Francis vs (0) Unknown,0,3,17,297.0,68,AQ

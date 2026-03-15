@@ -97,22 +97,26 @@ def main():
     from ncaa_2026_model import run_prediction as predict_seeds
     predict_seeds(DATA_FILE)
 
-    # ── Step 2: Bracket Simulation ──
+    # ── Step 2: Bracket Simulation (optional) ──
     print('\n' + '─'*60)
     print(' STEP 2: BRACKET SIMULATION (Monte Carlo + Probabilities)')
     print('─'*60)
-    from ncaa_bracket_predictor import run_prediction as predict_bracket
-    predict_bracket(DATA_FILE)
+    try:
+        from ncaa_bracket_predictor import run_prediction as predict_bracket
+        predict_bracket(DATA_FILE)
+    except ImportError:
+        print('  ⚠ ncaa_bracket_predictor module not found — skipping simulation')
+        print('  (Seed predictions from Step 1 are still valid)')
 
     # ── Step 3: Generate Kaggle Submission ──
     print('\n' + '─'*60)
     print(' STEP 3: GENERATING KAGGLE SUBMISSION')
     print('─'*60)
 
-    pred_path = os.path.join(DATA_DIR, 'bracket_2026_prediction.csv')
+    pred_path = os.path.join(DATA_DIR, 'output', '2026', 'bracket_2026_prediction.csv')
     if os.path.exists(pred_path):
         pred_df = pd.read_csv(pred_path)
-        sub_path = os.path.join(DATA_DIR, 'submission_2026.csv')
+        sub_path = os.path.join(DATA_DIR, 'output', '2026', 'submission_2026.csv')
         pred_df[['RecordID', 'Overall Seed']].to_csv(sub_path, index=False)
         print(f'  ✓ Kaggle submission saved: {sub_path}')
         print(f'    Format: RecordID, Overall Seed')
@@ -125,10 +129,9 @@ def main():
     print(' ALL OUTPUT FILES')
     print('='*60)
     outputs = [
-        ('submission_2026.csv', 'Kaggle submission (RecordID, Overall Seed)'),
-        ('bracket_2026_prediction.csv', 'Seed predictions'),
-        ('bracket_2026_detailed.csv', 'Detailed with NET, conference, etc.'),
-        ('bracket_2026_full.csv', 'Full bracket probabilities (all rounds)'),
+        ('output/2026/submission_2026.csv', 'Kaggle submission (RecordID, Overall Seed)'),
+        ('output/2026/bracket_2026_prediction.csv', 'Seed predictions'),
+        ('output/2026/bracket_2026_detailed.csv', 'Detailed with NET, conference, etc.'),
     ]
     for fname, desc in outputs:
         fpath = os.path.join(DATA_DIR, fname)
