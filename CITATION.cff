@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Pairwise Learning-to-Rank with Hungarian Assignment for NCAA Tournament Seed Prediction"
+authors:
+  - family-names: "Singhal"
+    given-names: "Om"
+version: "50.0"
+date-released: "2026-03-15"
+url: "https://github.com/Om-singhaI/NCAA"
+repository-code: "https://github.com/Om-singhaI/NCAA"
+license: MIT
+keywords:
+  - learning-to-rank
+  - Hungarian algorithm
+  - constrained optimization
+  - ensemble methods
+  - sports analytics
+  - NCAA basketball
+  - March Madness
+  - seed prediction
+abstract: >-
+  A four-stage machine learning pipeline for predicting exact 1-through-68
+  seed assignments in the NCAA March Madness tournament. The system combines
+  pairwise learning-to-rank, three-model ensemble blending, Hungarian algorithm
+  optimization, and domain-specific zone corrections. Achieves 91.2%
+  exact-match accuracy on leave-one-season-out cross-validation (340 teams,
+  5 seasons) and 77.6% within-2-seed accuracy on the held-out 2025-26 tournament.
