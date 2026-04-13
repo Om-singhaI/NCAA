@@ -245,6 +245,5 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 
 ## Acknowledgments
 
-- NCAA Evaluation Tool (NET) data via the [Kaggle competition](https://www.kaggle.com/competitions/march-machine-learning-mania-2025)
 - ESPN bracketology projections for 2025–26 field composition
 - The Hungarian algorithm implementation via [SciPy](https://scipy.org/) (`linear_sum_assignment`)
