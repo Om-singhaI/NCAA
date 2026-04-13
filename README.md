@@ -189,7 +189,7 @@ python predict_2026.py
 
 ## Data
 
-Training and test data are provided by the [Kaggle March Machine Learning Mania](https://www.kaggle.com/competitions/march-machine-learning-mania-2025) competition. Each team record contains 20 statistical features:
+Each team record contains 20 statistical features:
 
 | Feature | Description |
 |:--------|:------------|
@@ -209,7 +209,7 @@ These 20 raw features are engineered into **68 model features** across six categ
 
 This model evolved through **50 iterations**, each targeting specific failure modes:
 
-| Version | Architecture Change | Exact Match | RMSE | Kaggle SE |
+| Version | Architecture Change | Exact Match | RMSE | SE |
 |:--------|:-------------------|------------:|-----:|----------:|
 | v27 | Pairwise LR baseline | 67/91 | 2.31 | 487 |
 | v45c | + Feature engineering (68 feats) | 66/91 | 1.60 | 233 |
@@ -231,7 +231,7 @@ If you use this work in your research, please cite:
   title        = {Pairwise Learning-to-Rank with Hungarian Assignment for {NCAA} Tournament Seed Prediction},
   year         = {2026},
   url          = {https://github.com/Om-singhaI/NCAA},
-  note         = {Kaggle March Machine Learning Mania 2025}
+  note         = {NCAA Final Four Analytics Challenge}
 }
 ```
 
