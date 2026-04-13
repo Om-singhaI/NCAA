@@ -37,6 +37,15 @@ submission/
 # Scripts (local build/utility scripts — not part of the core model)
 scripts/
 
+# Archive (development history — local only)
+archive/
+
+# Docs (papers, methodology — local only)
+docs/
+
+# Analysis (generalization diagnostics — local only)
+analysis/
+
 # Generated submissions (regenerate with generate_kaggle_submission.py)
 output/submission_kaggle.csv
 bracket_2026_*.csv
