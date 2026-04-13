@@ -2,7 +2,6 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](docs/paper.md)
 
 > **A constrained ranking system that predicts exact 1-through-68 seed assignments for all NCAA March Madness tournament teams using pairwise comparison, ensemble blending, combinatorial optimization, and domain-specific post-processing.**
 
@@ -150,31 +149,9 @@ The gap between cross-validation RMSE (0.392) and held-out RMSE (2.543) — a **
 │   ├── NCAA Statistics.xlsx              # Full D-I stats, 2025–26 season
 │   └── NCAA_2026_Data.csv                # Processed 68-team model input
 │
-├── analysis/                             # Generalization & overfitting diagnostics
-│   ├── ncaa_v50_generalization_analysis.py
-│   ├── ncaa_v51_principled.py
-│   └── overfitting_analysis.py
-│
-├── output/                               # Model predictions & submissions
-│   ├── submission_kaggle.csv
-│   └── 2026/                             # 2025–26 bracket predictions
-│
-├── docs/                                 # Documentation & publications
-│   ├── METHODOLOGY.md                    # Detailed methodology
-│   ├── RESULTS.md                        # Results discussion
-│   ├── IEEE_Access_Paper.md              # Research paper (Markdown)
-│   ├── IEEE_Access_Paper.tex             # Research paper (LaTeX, IEEE format)
-│   └── figures/                          # Paper figures
-│
-├── scripts/                              # Utility & build scripts
-│   ├── convert_to_model_data.py          # Data pipeline: Excel → model CSV
-│   ├── compare_actual_seeds.py           # Post-hoc evaluation vs actual bracket
-│   └── ...
-│
-├── archive/                              # Development history (50 model versions)
-├── submission/                           # Competition submission package
-├── deliverables/                         # Presentation materials (local only)
-└── tableau/                              # Tableau workbooks & exports (local only)
+└── output/                               # Model predictions & submissions
+    ├── submission_kaggle.csv
+    └── 2026/                             # 2025–26 bracket predictions
 ```
 
 ---
@@ -202,19 +179,10 @@ This runs leave-one-season-out cross-validation on all 340 labeled teams and out
 
 ```bash
 # 1. Place NCAA Statistics Excel in data/
-# 2. Convert to model format:
-python scripts/convert_to_model_data.py
-
-# 3. Generate predictions:
+# 2. Generate predictions:
 python predict_2026.py
 # → output/2026/seed_selections_2026.txt
 # → output/2026/submission_2026.csv
-```
-
-### Run Generalization Analysis
-
-```bash
-python analysis/ncaa_v50_generalization_analysis.py
 ```
 
 ---
