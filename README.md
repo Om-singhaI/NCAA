@@ -134,34 +134,47 @@ The gap between cross-validation RMSE (0.392) and held-out RMSE (2.543) — a **
 ## Repository Structure
 
 ```
-├── ncaa_2026_model.py                # Core model: all stages, features, training, and inference
-├── generate_kaggle_submission.py     # Generates competition submission CSV (LOSO validation)
-├── predict_2026.py                   # End-to-end 2025–26 season prediction runner
-├── convert_to_model_data.py          # Data pipeline: NCAA Excel + ESPN → model-ready CSV
-├── compare_actual_seeds.py           # Post-hoc evaluation against actual 2026 bracket
+├── README.md                             # This file
+├── LICENSE                               # MIT License
+├── CITATION.cff                          # Citation metadata
+├── requirements.txt                      # Python dependencies
+├── NCAA_vid.mp4                          # Project video presentation
+│
+├── ncaa_2026_model.py                    # Core model: features, training, inference
+├── generate_kaggle_submission.py         # LOSO cross-validation & submission CSV
+├── predict_2026.py                       # End-to-end 2025–26 prediction runner
 │
 ├── data/
-│   ├── NCAA_Seed_Training_Set2.0.csv # 249 labeled teams (2020–2024), 20 features
-│   ├── NCAA_Seed_Test_Set2.0.csv     # 91 labeled teams (held-out seasons), 20 features
-│   ├── NCAA Statistics.xlsx          # 365 Division I teams, 2025–26 season stats
-│   └── NCAA_2026_Data.csv            # Processed 68-team model input for 2026
+│   ├── NCAA_Seed_Training_Set2.0.csv     # 249 labeled teams (2020–2024)
+│   ├── NCAA_Seed_Test_Set2.0.csv         # 91 labeled teams (held-out seasons)
+│   ├── NCAA Statistics.xlsx              # Full D-I stats, 2025–26 season
+│   └── NCAA_2026_Data.csv                # Processed 68-team model input
 │
-├── analysis/
-│   ├── ncaa_v50_generalization_analysis.py  # Overfitting and generalization diagnostics
-│   ├── ncaa_v51_principled.py               # Ablation study: model without zone corrections
-│   └── overfitting_analysis.py              # Training-vs-test performance analysis
+├── analysis/                             # Generalization & overfitting diagnostics
+│   ├── ncaa_v50_generalization_analysis.py
+│   ├── ncaa_v51_principled.py
+│   └── overfitting_analysis.py
 │
-├── output/
-│   ├── submission_kaggle.csv         # Competition submission (training + test predictions)
-│   └── 2026/                         # 2025–26 predictions, bracket export, submission file
+├── output/                               # Model predictions & submissions
+│   ├── submission_kaggle.csv
+│   └── 2026/                             # 2025–26 bracket predictions
 │
-├── docs/
-│   └── METHODOLOGY.md                # Detailed methodology documentation
+├── docs/                                 # Documentation & publications
+│   ├── METHODOLOGY.md                    # Detailed methodology
+│   ├── RESULTS.md                        # Results discussion
+│   ├── IEEE_Access_Paper.md              # Research paper (Markdown)
+│   ├── IEEE_Access_Paper.tex             # Research paper (LaTeX, IEEE format)
+│   └── figures/                          # Paper figures
 │
-├── archive/                          # Development history: 50 model versions, experiments
-├── requirements.txt                  # Python dependencies
-├── CITATION.cff                      # Citation metadata
-└── LICENSE                           # MIT License
+├── scripts/                              # Utility & build scripts
+│   ├── convert_to_model_data.py          # Data pipeline: Excel → model CSV
+│   ├── compare_actual_seeds.py           # Post-hoc evaluation vs actual bracket
+│   └── ...
+│
+├── archive/                              # Development history (50 model versions)
+├── submission/                           # Competition submission package
+├── deliverables/                         # Presentation materials (local only)
+└── tableau/                              # Tableau workbooks & exports (local only)
 ```
 
 ---
@@ -190,7 +203,7 @@ This runs leave-one-season-out cross-validation on all 340 labeled teams and out
 ```bash
 # 1. Place NCAA Statistics Excel in data/
 # 2. Convert to model format:
-python convert_to_model_data.py
+python scripts/convert_to_model_data.py
 
 # 3. Generate predictions:
 python predict_2026.py
